@@ -1014,13 +1014,13 @@
 <table>
 <thead>
 <tr>
-<th>Shortcut</th>
+<th>Shortcut [Local Mode]</th>
 <th align="center">Action</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>Ctrl+Shift+[</td>
-<td align="center">Select the matching pairs.<br>Repeating the key will expands the selection to the outer matching pairs.</td>
+<td align="center">Select the matching pairs<br>Repeating the key will expands the selection to the outer matching pairs</td>
 </tr>
 <tr>
 <td>Ctrl+Shift+]</td>
@@ -1033,6 +1033,14 @@
 <tr>
 <td>Alt+Shift+]</td>
 <td align="center">Select to the closing delimiter</td>
+</tr>
+<tr>
+<td>Alt+[</td>
+<td align="center">Move to the opening delimiter</td>
+</tr>
+<tr>
+<td>Alt+]</td>
+<td align="center">Move to the closing delimiter</td>
 </tr>
 </tbody></table>
 <h1 id="Pair"><a href="#Pair" class="headerlink" title="Pair"></a>Pair</h1><p><img src="/img/pair.gif" alt="..."></p>
