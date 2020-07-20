@@ -37,40 +37,38 @@
       </tags>
   </entry>
   <entry>
-    <title>WindEdit - 50,000,000 Lines File</title>
-    <url>/2020/01/21/50000000-lines-file/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindEdit can open a huge file contains millions of lines.</p>
-<h1 id="Millions-Of-Lines"><a href="#Millions-Of-Lines" class="headerlink" title="Millions Of Lines"></a>Millions Of Lines</h1><p>For example: Open 50,000,000 lines file contains numbers only cost 27MB memory.</p>
-<p>Test platform: windows 10 - 2.3 GHz Intel Core i5 and 8GB memory and ssd.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th align="center">50,000,000 lines, 466MB</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>elapsed</td>
-<td align="center">1.68s</td>
-</tr>
-<tr>
-<td>memory (before)</td>
-<td align="center">19.2MB</td>
-</tr>
-<tr>
-<td>memory (after)</td>
-<td align="center">46.0MB</td>
-</tr>
-</tbody></table>
-<p><img src="/img/windedit_50000000_lines_performance.gif" alt="..."></p>
+    <title>WindTerm - AddressBar / Button Menu</title>
+    <url>/2020/06/20/addressbar-button-menu/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>When clicking the button, the corresponding session list will pop up:</p>
+<ul>
+<li>Session button: List sessions in the same group</li>
+<li>Group button: List sessions in the same group level</li>
+<li>Protocol button: List sessions in the same protocol</li>
+<li>Root button: List all sessions</li>
+</ul>
+<p><img src="/img/addressbar_buttons.png" alt="..."></p>
+<h1 id="Button-Menu"><a href="#Button-Menu" class="headerlink" title="Button Menu"></a>Button Menu</h1><p><img src="/img/addressbar_button_menu.gif" alt="..."></p>
 ]]></content>
       <categories>
-        <category>WindEdit</category>
+        <category>WindTerm</category>
       </categories>
       <tags>
-        <tag>windedit</tag>
-        <tag>huge file</tag>
-        <tag>millions of lines</tag>
+        <tag>windterm</tag>
+        <tag>addressbar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - AddressBar / Existing Host</title>
+    <url>/2020/06/20/addressbar-existing-host/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Addressbar supports to choose “Switch to tab” to activate the tab when the host has been opened.</p>
+<h1 id="Existing-Host"><a href="#Existing-Host" class="headerlink" title="Existing Host"></a>Existing Host</h1><p><img src="/img/addressbar_existing_host.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>addressbar</tag>
       </tags>
   </entry>
   <entry>
@@ -111,38 +109,40 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - AddressBar / Existing Host</title>
-    <url>/2020/06/20/addressbar-existing-host/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Addressbar supports to choose “Switch to tab” to activate the tab when the host has been opened.</p>
-<h1 id="Existing-Host"><a href="#Existing-Host" class="headerlink" title="Existing Host"></a>Existing Host</h1><p><img src="/img/addressbar_existing_host.gif" alt="..."></p>
+    <title>WindEdit - 50,000,000 Lines File</title>
+    <url>/2020/01/21/50000000-lines-file/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindEdit can open a huge file contains millions of lines.</p>
+<h1 id="Millions-Of-Lines"><a href="#Millions-Of-Lines" class="headerlink" title="Millions Of Lines"></a>Millions Of Lines</h1><p>For example: Open 50,000,000 lines file contains numbers only cost 27MB memory.</p>
+<p>Test platform: windows 10 - 2.3 GHz Intel Core i5 and 8GB memory and ssd.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">50,000,000 lines, 466MB</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>elapsed</td>
+<td align="center">1.68s</td>
+</tr>
+<tr>
+<td>memory (before)</td>
+<td align="center">19.2MB</td>
+</tr>
+<tr>
+<td>memory (after)</td>
+<td align="center">46.0MB</td>
+</tr>
+</tbody></table>
+<p><img src="/img/windedit_50000000_lines_performance.gif" alt="..."></p>
 ]]></content>
       <categories>
-        <category>WindTerm</category>
+        <category>WindEdit</category>
       </categories>
       <tags>
-        <tag>windterm</tag>
-        <tag>addressbar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - AddressBar / Button Menu</title>
-    <url>/2020/06/20/addressbar-button-menu/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>When clicking the button, the corresponding session list will pop up:</p>
-<ul>
-<li>Session button: List sessions in the same group</li>
-<li>Group button: List sessions in the same group level</li>
-<li>Protocol button: List sessions in the same protocol</li>
-<li>Root button: List all sessions</li>
-</ul>
-<p><img src="/img/addressbar_buttons.png" alt="..."></p>
-<h1 id="Button-Menu"><a href="#Button-Menu" class="headerlink" title="Button Menu"></a>Button Menu</h1><p><img src="/img/addressbar_button_menu.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>addressbar</tag>
+        <tag>windedit</tag>
+        <tag>huge file</tag>
+        <tag>millions of lines</tag>
       </tags>
   </entry>
   <entry>
@@ -150,20 +150,6 @@
     <url>/2020/06/20/addressbar-non-existing-host/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Addressbar supports to open host address in the format “protocol://host:port”. When the protocol name or port is omitted, ssh and 22 is used by default.</p>
 <h1 id="Non-Existing-Host"><a href="#Non-Existing-Host" class="headerlink" title="Non-Existing Host"></a>Non-Existing Host</h1><p><img src="/img/addressbar_non_existing_host.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>addressbar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - AddressBar / Property Panel</title>
-    <url>/2020/06/20/addressbar-property-panel/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Clicking the button in the address bar will display current session’s property.</p>
-<h1 id="Property-Panel"><a href="#Property-Panel" class="headerlink" title="Property Panel"></a>Property Panel</h1><p><img src="/img/addressbar_property_panel.png" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -195,6 +181,34 @@
       </tags>
   </entry>
   <entry>
+    <title>WindTerm - Auto wrap</title>
+    <url>/2020/01/22/auto-wrap/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Content in view can be auto wrapped by char or word at the window border or specified columns.</p>
+<h1 id="Auto-wrap"><a href="#Auto-wrap" class="headerlink" title="Auto wrap"></a>Auto wrap</h1><p><img src="/img/auto_wrap.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>auto wrap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - AddressBar / Property Panel</title>
+    <url>/2020/06/20/addressbar-property-panel/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Clicking the button in the address bar will display current session’s property.</p>
+<h1 id="Property-Panel"><a href="#Property-Panel" class="headerlink" title="Property Panel"></a>Property Panel</h1><p><img src="/img/addressbar_property_panel.png" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>addressbar</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WindTerm - AddressBar / Text Selection</title>
     <url>/2020/06/20/addressbar-text-selection/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>When you double click a button, the text of the button and the buttons after it will be selected by default to facilitate copying or modification.</p>
@@ -206,33 +220,6 @@
       <tags>
         <tag>windterm</tag>
         <tag>addressbar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Command Palette / Execute Actions</title>
-    <url>/2020/06/20/command-palette-execute-action/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Command palette supports executing the internal actions.</p>
-<table>
-<thead>
-<tr>
-<th>Shortcut</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Alt+S, &gt;</td>
-</tr>
-<tr>
-<td>Alt+;</td>
-</tr>
-</tbody></table>
-<h1 id="Execute-Actions"><a href="#Execute-Actions" class="headerlink" title="Execute Actions"></a>Execute Actions</h1><p><img src="/img/command_palette_execute_actions.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>command palette</tag>
       </tags>
   </entry>
   <entry>
@@ -293,9 +280,9 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Command Palette / Open Session</title>
-    <url>/2020/06/20/command-palette-open-session/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Command palette supports filtering and opening sessions. The blue icon means to switch to the opened session.</p>
+    <title>WindTerm - Command Palette / Execute Actions</title>
+    <url>/2020/06/20/command-palette-execute-action/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Command palette supports executing the internal actions.</p>
 <table>
 <thead>
 <tr>
@@ -303,13 +290,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>Alt+S, tm, Space</td>
+<td>Alt+S, &gt;</td>
 </tr>
 <tr>
-<td>Alt+O</td>
+<td>Alt+;</td>
 </tr>
 </tbody></table>
-<h1 id="Opne-Session"><a href="#Opne-Session" class="headerlink" title="Opne Session"></a>Opne Session</h1><p><img src="/img/command_palette_open_session.gif" alt="..."></p>
+<h1 id="Execute-Actions"><a href="#Execute-Actions" class="headerlink" title="Execute Actions"></a>Execute Actions</h1><p><img src="/img/command_palette_execute_actions.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -317,6 +304,25 @@
       <tags>
         <tag>windterm</tag>
         <tag>command palette</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Fold</title>
+    <url>/2020/01/23/fold/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Every command and its output can be folded. Fold supports the below actions:</p>
+<ul>
+<li>Fold/Unfold current command   (Mouse LButton Click)</li>
+<li>Fold/Unfold all commands      (Alt + Mouse LButton Click)</li>
+<li>Select Fold Range Text        (Mouse LButton Double Click)</li>
+</ul>
+<h1 id="Fold"><a href="#Fold" class="headerlink" title="Fold"></a>Fold</h1><p><img src="/img/fold.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>fold</tag>
       </tags>
   </entry>
   <entry>
@@ -347,6 +353,49 @@
       </tags>
   </entry>
   <entry>
+    <title>WindTerm - Debug Mode</title>
+    <url>/2020/07/21/debug_mode/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Debug mode is a troubleshooting tool that allows WindTerm to create additional and more detailed logs of the session’s activity.</p>
+<p>You may enable debug mode and send the logs if you are having a particularly troublesome or unique issue of the terminal output or slow keyboard response and so on.</p>
+<p>Leaving debug mode on is not recommended once your issue has been resolved because it slows down the WindTerm’s normal operation.</p>
+<h1 id="Debug-Mode"><a href="#Debug-Mode" class="headerlink" title="Debug Mode"></a>Debug Mode</h1><p><img src="/img/debug_mode.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>debug mode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Command Palette / Open Session</title>
+    <url>/2020/06/20/command-palette-open-session/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Command palette supports filtering and opening sessions. The blue icon means to switch to the opened session.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Alt+S, tm, Space</td>
+</tr>
+<tr>
+<td>Alt+O</td>
+</tr>
+</tbody></table>
+<h1 id="Opne-Session"><a href="#Opne-Session" class="headerlink" title="Opne Session"></a>Opne Session</h1><p><img src="/img/command_palette_open_session.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>command palette</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WindTerm - Highlight</title>
     <url>/2020/01/23/highlight/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Four highlight types are supported now. The highligh config syntax is compatible with vscode and fully extensible.</p>
@@ -367,30 +416,9 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Auto wrap</title>
-    <url>/2020/01/22/auto-wrap/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Content in view can be auto wrapped by char or word at the window border or specified columns.</p>
-<h1 id="Auto-wrap"><a href="#Auto-wrap" class="headerlink" title="Auto wrap"></a>Auto wrap</h1><p><img src="/img/auto_wrap.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>auto wrap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Keyboard / Local Mode / Copy And Paste Keys</title>
-    <url>/2020/06/21/keyboard-copypaste-keys/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>In local mode, one can copy with y{motion}, where {motion} is a <a href="/2020/06/21/keyboard-navigation-keys/" title="navigation motion">navigation motion</a> or <a href="/2020/06/21/keyboard-searching-keys/" title="searching motion">searching motion</a>. For example, yw copies to the beginning of the next word. Other helpful copy commands include:</p>
-<ul>
-<li>yy<br>Copy the current line, including the newline character</li>
-<li>y$<br>Copy to the end of the current line without the newline character</li>
-<li>yw<br>Copy to the beginning of the next word</li>
-<li>yt<em>x</em><br>Copy from the current cursor position up to and before the character <em>x</em></li>
-<li>yf<em>x</em><br>Copy from the current cursor position up to and including the character <em>x</em></li>
-</ul>
+    <title>WindTerm - Keyboard / Local Mode / Folding Keys</title>
+    <url>/2020/06/21/keyboard-folding-keys/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following folding keys of Vim.</p>
 <table>
 <thead>
 <tr>
@@ -399,43 +427,51 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>yy</td>
-<td align="center">Copy the current selection or line</td>
+<td>zj</td>
+<td align="center">Move down to top of the next fold</td>
 </tr>
 <tr>
-<td>p</td>
-<td align="center">Paste and switch back to remote mode</td>
+<td>zk</td>
+<td align="center">Move up to bottom of the previous fold</td>
 </tr>
 <tr>
-<td>P</td>
-<td align="center">Paste and stay in local mode</td>
+<td>za</td>
+<td align="center">Toggle the current fold</td>
 </tr>
 <tr>
-<td>“<em>x</em>y{motion}</td>
-<td align="center">Copy into the register <em>x</em></td>
+<td>zo</td>
+<td align="center">Open the current fold</td>
 </tr>
 <tr>
-<td>“<em>x</em>p</td>
-<td align="center">Paste contents of the register <em>x</em> and switch to remote mode</td>
+<td>zc</td>
+<td align="center">Close the current fold</td>
 </tr>
 <tr>
-<td>“<em>x</em>P</td>
-<td align="center">Paste contents of the register <em>x</em> and stay in local mode</td>
+<td>zO</td>
+<td align="center">Open the current fold recursively</td>
 </tr>
 <tr>
-<td>“+y{motion}</td>
-<td align="center">Copy into the system clipboard register</td>
+<td>zC</td>
+<td align="center">Close the current fold recursively</td>
 </tr>
 <tr>
-<td>“+p</td>
-<td align="center">Paste from the system clipboard register and switch to remote mode</td>
+<td>zm</td>
+<td align="center">Close all folds</td>
 </tr>
 <tr>
-<td>“+P</td>
-<td align="center">Paste from the system clipboard register and stay in local mode</td>
+<td>zM</td>
+<td align="center">Close all folds</td>
+</tr>
+<tr>
+<td>zr</td>
+<td align="center">Open all folds</td>
+</tr>
+<tr>
+<td>zR</td>
+<td align="center">Open all folds</td>
 </tr>
 </tbody></table>
-<h1 id="Copy-And-Paste-Keys"><a href="#Copy-And-Paste-Keys" class="headerlink" title="Copy And Paste Keys"></a>Copy And Paste Keys</h1><p><img src="/img/keyboard_copypaste_keys.gif" alt="..."></p>
+<h1 id="Folding-Keys"><a href="#Folding-Keys" class="headerlink" title="Folding Keys"></a>Folding Keys</h1><p><img src="/img/keyboard_folding_keys.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -444,54 +480,6 @@
         <tag>windterm</tag>
         <tag>keyboard</tag>
         <tag>local mode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Keyboard / Remote Mode And Local Mode</title>
-    <url>/2020/06/21/keyboard-modes/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>There are two modes in WindTerm:</p>
-<ul>
-<li><p>Remote Mode<br>The remote mode is the default mode of WindTerm. In remote mode, every key pressed will sends to the server just like the other terminals.</p>
-</li>
-<li><p>Local Mode<br>The local mode is mainly used for browsing the text. In local mode, every key pressed will be parsed locally instead of being sent to the server.</p>
-<p>The local mode supports most <a href="/2020/06/21/keyboard-navigation-keys/" title="navigation">navigation</a>, <a href="/2020/06/21/keyboard-scrolling-keys/" title="scrolling">scrolling</a>, <a href="/2020/06/21/keyboard-searching-keys/" title="searching">searching</a>, <a href="/2020/06/21/keyboard-copypaste-keys/" title="copy and paste">copy and paste</a>, <a href="/2020/06/21/keyboard-selection-keys/" title="selection">selection</a> and <a href="/2020/06/21/keyboard-folding-keys/" title="folding">folding</a> shortcuts of Vim.</p>
-<p>When WindTerm in local mode, it just acts like a readonly text editor, which is very convenient for text browsing. In particular, when the output is scrolling quickly and continuously, switching to the local mode can immediately stop scrolling for easy reading of the output.</p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Shortcut</th>
-<th align="center">Action</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Shift+Enter</td>
-<td align="center">Toggle the remote and local mode</td>
-</tr>
-<tr>
-<td>i</td>
-<td align="center">Switch back to remote mode from local mode</td>
-</tr>
-<tr>
-<td>p</td>
-<td align="center">Paste and switch back to remote mode from local mode</td>
-</tr>
-<tr>
-<td>Ctrl+v</td>
-<td align="center">Paste and switch back to remote mode from local mode</td>
-</tr>
-</tbody></table>
-<h1 id="Remote-Mode-And-Local-Mode"><a href="#Remote-Mode-And-Local-Mode" class="headerlink" title="Remote Mode And Local Mode"></a>Remote Mode And Local Mode</h1><p><img src="/img/keyboard_modes.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>keyboard</tag>
-        <tag>local mode</tag>
-        <tag>remote mode</tag>
       </tags>
   </entry>
   <entry>
@@ -618,143 +606,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Keyboard / Local Mode / Folding Keys</title>
-    <url>/2020/06/21/keyboard-folding-keys/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following folding keys of Vim.</p>
-<table>
-<thead>
-<tr>
-<th>Shortcut</th>
-<th align="center">Action</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>zj</td>
-<td align="center">Move down to top of the next fold</td>
-</tr>
-<tr>
-<td>zk</td>
-<td align="center">Move up to bottom of the previous fold</td>
-</tr>
-<tr>
-<td>za</td>
-<td align="center">Toggle the current fold</td>
-</tr>
-<tr>
-<td>zo</td>
-<td align="center">Open the current fold</td>
-</tr>
-<tr>
-<td>zc</td>
-<td align="center">Close the current fold</td>
-</tr>
-<tr>
-<td>zO</td>
-<td align="center">Open the current fold recursively</td>
-</tr>
-<tr>
-<td>zC</td>
-<td align="center">Close the current fold recursively</td>
-</tr>
-<tr>
-<td>zm</td>
-<td align="center">Close all folds</td>
-</tr>
-<tr>
-<td>zM</td>
-<td align="center">Close all folds</td>
-</tr>
-<tr>
-<td>zr</td>
-<td align="center">Open all folds</td>
-</tr>
-<tr>
-<td>zR</td>
-<td align="center">Open all folds</td>
-</tr>
-</tbody></table>
-<h1 id="Folding-Keys"><a href="#Folding-Keys" class="headerlink" title="Folding Keys"></a>Folding Keys</h1><p><img src="/img/keyboard_folding_keys.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>keyboard</tag>
-        <tag>local mode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Fold</title>
-    <url>/2020/01/23/fold/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Every command and its output can be folded. Fold supports the below actions:</p>
-<ul>
-<li>Fold/Unfold current command   (Mouse LButton Click)</li>
-<li>Fold/Unfold all commands      (Alt + Mouse LButton Click)</li>
-<li>Select Fold Range Text        (Mouse LButton Double Click)</li>
-</ul>
-<h1 id="Fold"><a href="#Fold" class="headerlink" title="Fold"></a>Fold</h1><p><img src="/img/fold.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>fold</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Keyboard / Local Mode / Searching Keys</title>
-    <url>/2020/06/21/keyboard-searching-keys/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following searching keys of Vim.</p>
-<table>
-<thead>
-<tr>
-<th>Shortcut</th>
-<th align="center">Action</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>/</td>
-<td align="center">Open the search bar</td>
-</tr>
-<tr>
-<td>f<em>c</em></td>
-<td align="center">Move to the next <em>c</em> on the current line after the cursor</td>
-</tr>
-<tr>
-<td>F<em>c</em></td>
-<td align="center">Move to the next <em>c</em> on the current line before the cursor</td>
-</tr>
-<tr>
-<td>t<em>c</em></td>
-<td align="center">Move to before the next <em>c</em> on the current line after the cursor</td>
-</tr>
-<tr>
-<td>T<em>c</em></td>
-<td align="center">Move to before the next <em>c</em> on the current line before the cursor</td>
-</tr>
-<tr>
-<td>;</td>
-<td align="center">Repeat last f, t, F or T</td>
-</tr>
-<tr>
-<td>,</td>
-<td align="center">Repeat last f, t, F or T in opposite direction</td>
-</tr>
-</tbody></table>
-<h1 id="Searching-Keys"><a href="#Searching-Keys" class="headerlink" title="Searching Keys"></a>Searching Keys</h1><p><img src="/img/keyboard_searching_keys.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>keyboard</tag>
-        <tag>local mode</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Keyboard / Local Mode / Scrolling Keys</title>
     <url>/2020/06/21/keyboard-scrolling-keys/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following scrolling keys of Vim.</p>
@@ -822,6 +673,192 @@
       </tags>
   </entry>
   <entry>
+    <title>WindTerm - Keyboard / Remote Mode And Local Mode</title>
+    <url>/2020/06/21/keyboard-modes/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>There are two modes in WindTerm:</p>
+<ul>
+<li><p>Remote Mode<br>The remote mode is the default mode of WindTerm. In remote mode, every key pressed will sends to the server just like the other terminals.</p>
+</li>
+<li><p>Local Mode<br>The local mode is mainly used for browsing the text. In local mode, every key pressed will be parsed locally instead of being sent to the server.</p>
+<p>The local mode supports most <a href="/2020/06/21/keyboard-navigation-keys/" title="navigation">navigation</a>, <a href="/2020/06/21/keyboard-scrolling-keys/" title="scrolling">scrolling</a>, <a href="/2020/06/21/keyboard-searching-keys/" title="searching">searching</a>, <a href="/2020/06/21/keyboard-copypaste-keys/" title="copy and paste">copy and paste</a>, <a href="/2020/06/21/keyboard-selection-keys/" title="selection">selection</a> and <a href="/2020/06/21/keyboard-folding-keys/" title="folding">folding</a> shortcuts of Vim.</p>
+<p>When WindTerm in local mode, it just acts like a readonly text editor, which is very convenient for text browsing. In particular, when the output is scrolling quickly and continuously, switching to the local mode can immediately stop scrolling for easy reading of the output.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th align="center">Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Shift+Enter</td>
+<td align="center">Toggle the remote and local mode</td>
+</tr>
+<tr>
+<td>i</td>
+<td align="center">Switch back to remote mode from local mode</td>
+</tr>
+<tr>
+<td>p</td>
+<td align="center">Paste and switch back to remote mode from local mode</td>
+</tr>
+<tr>
+<td>Ctrl+v</td>
+<td align="center">Paste and switch back to remote mode from local mode</td>
+</tr>
+</tbody></table>
+<h1 id="Remote-Mode-And-Local-Mode"><a href="#Remote-Mode-And-Local-Mode" class="headerlink" title="Remote Mode And Local Mode"></a>Remote Mode And Local Mode</h1><p><img src="/img/keyboard_modes.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>keyboard</tag>
+        <tag>local mode</tag>
+        <tag>remote mode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Keyboard / Local Mode / Copy And Paste Keys</title>
+    <url>/2020/06/21/keyboard-copypaste-keys/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>In local mode, one can copy with y{motion}, where {motion} is a <a href="/2020/06/21/keyboard-navigation-keys/" title="navigation motion">navigation motion</a> or <a href="/2020/06/21/keyboard-searching-keys/" title="searching motion">searching motion</a>. For example, yw copies to the beginning of the next word. Other helpful copy commands include:</p>
+<ul>
+<li>yy<br>Copy the current line, including the newline character</li>
+<li>y$<br>Copy to the end of the current line without the newline character</li>
+<li>yw<br>Copy to the beginning of the next word</li>
+<li>yt<em>x</em><br>Copy from the current cursor position up to and before the character <em>x</em></li>
+<li>yf<em>x</em><br>Copy from the current cursor position up to and including the character <em>x</em></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th align="center">Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>yy</td>
+<td align="center">Copy the current selection or line</td>
+</tr>
+<tr>
+<td>p</td>
+<td align="center">Paste and switch back to remote mode</td>
+</tr>
+<tr>
+<td>P</td>
+<td align="center">Paste and stay in local mode</td>
+</tr>
+<tr>
+<td>“<em>x</em>y{motion}</td>
+<td align="center">Copy into the register <em>x</em></td>
+</tr>
+<tr>
+<td>“<em>x</em>p</td>
+<td align="center">Paste contents of the register <em>x</em> and switch to remote mode</td>
+</tr>
+<tr>
+<td>“<em>x</em>P</td>
+<td align="center">Paste contents of the register <em>x</em> and stay in local mode</td>
+</tr>
+<tr>
+<td>“+y{motion}</td>
+<td align="center">Copy into the system clipboard register</td>
+</tr>
+<tr>
+<td>“+p</td>
+<td align="center">Paste from the system clipboard register and switch to remote mode</td>
+</tr>
+<tr>
+<td>“+P</td>
+<td align="center">Paste from the system clipboard register and stay in local mode</td>
+</tr>
+</tbody></table>
+<h1 id="Copy-And-Paste-Keys"><a href="#Copy-And-Paste-Keys" class="headerlink" title="Copy And Paste Keys"></a>Copy And Paste Keys</h1><p><img src="/img/keyboard_copypaste_keys.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>keyboard</tag>
+        <tag>local mode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Keyboard / Local Mode / Searching Keys</title>
+    <url>/2020/06/21/keyboard-searching-keys/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following searching keys of Vim.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th align="center">Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>/</td>
+<td align="center">Open the search bar</td>
+</tr>
+<tr>
+<td>f<em>c</em></td>
+<td align="center">Move to the next <em>c</em> on the current line after the cursor</td>
+</tr>
+<tr>
+<td>F<em>c</em></td>
+<td align="center">Move to the next <em>c</em> on the current line before the cursor</td>
+</tr>
+<tr>
+<td>t<em>c</em></td>
+<td align="center">Move to before the next <em>c</em> on the current line after the cursor</td>
+</tr>
+<tr>
+<td>T<em>c</em></td>
+<td align="center">Move to before the next <em>c</em> on the current line before the cursor</td>
+</tr>
+<tr>
+<td>;</td>
+<td align="center">Repeat last f, t, F or T</td>
+</tr>
+<tr>
+<td>,</td>
+<td align="center">Repeat last f, t, F or T in opposite direction</td>
+</tr>
+</tbody></table>
+<h1 id="Searching-Keys"><a href="#Searching-Keys" class="headerlink" title="Searching Keys"></a>Searching Keys</h1><p><img src="/img/keyboard_searching_keys.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>keyboard</tag>
+        <tag>local mode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Manage Sessions</title>
+    <url>/2020/01/22/manage-sessions/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Use shortcut menu in Session Tree to manage sessions.</p>
+<h1 id="Management"><a href="#Management" class="headerlink" title="Management"></a>Management</h1><p>Five types of session management are supported now.</p>
+<ul>
+<li>Label <img src="/img/label_session.gif" alt="..."></li>
+<li>Group <img src="/img/group_session.gif" alt="..."></li>
+<li>Delete <img src="/img/delete_session.gif" alt="..."></li>
+<li>Property <img src="/img/property_session.gif" alt="..."></li>
+<li>Filter <img src="/img/filter_session.gif" alt="..."></li>
+</ul>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>session</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WindTerm - Keyboard / Local Mode / Selection Keys</title>
     <url>/2020/06/21/keyboard-selection-keys/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>In local mode, one can select text with v{motion} or V{motion}, where {motion} is a <a href="/2020/06/21/keyboard-navigation-keys/" title="navigation motion">navigation motion</a> or <a href="/2020/06/21/keyboard-searching-keys/" title="searching motion">searching motion</a>. For example, vw selects to the beginning of the next word. Other helpful copy commands include:</p>
@@ -875,53 +912,18 @@
       </categories>
       <tags>
         <tag>windterm</tag>
+        <tag>session</tag>
         <tag>ssh</tag>
         <tag>telnet</tag>
         <tag>serial</tag>
         <tag>shell</tag>
-        <tag>session</tag>
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Manage Sessions</title>
-    <url>/2020/01/22/manage-sessions/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Use shortcut menu in Session Tree to manage sessions.</p>
-<h1 id="Management"><a href="#Management" class="headerlink" title="Management"></a>Management</h1><p>Five types of session management are supported now.</p>
-<ul>
-<li>Label <img src="/img/label_session.gif" alt="..."></li>
-<li>Group <img src="/img/group_session.gif" alt="..."></li>
-<li>Delete <img src="/img/delete_session.gif" alt="..."></li>
-<li>Property <img src="/img/property_session.gif" alt="..."></li>
-<li>Filter <img src="/img/filter_session.gif" alt="..."></li>
-</ul>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>session</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Outline</title>
-    <url>/2020/01/23/outline/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline is usually used to collect every command typed and make these commands easier to browser and filter.</p>
-<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>outline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Outline / Copy</title>
-    <url>/2020/06/28/outline_copy/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline supports copying the name or output of a single or multiple command nodes.</p>
-<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_copy.gif" alt="..."></p>
+    <title>WindTerm - Outline / Execution</title>
+    <url>/2020/06/28/outline_execute/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline supports re-execution or repeated execution of the selected single or multiple commands. And you can quickly execute the commands by double-clicking or the context menu.</p>
+<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_execute.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -943,68 +945,6 @@
       <tags>
         <tag>windterm</tag>
         <tag>outline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Reopen session</title>
-    <url>/2020/01/22/reopen-session/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The closed session can be reopened by Recent menu or shortcut.</p>
-<ul>
-<li>Close current session. (Ctrl+Shift+W)</li>
-<li>Reopen closed session. (Ctrl+Shift+T)</li>
-</ul>
-<h1 id="Restore-Sessions"><a href="#Restore-Sessions" class="headerlink" title="Restore Sessions"></a>Restore Sessions</h1><p><img src="/img/reopen_session.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>session</tag>
-        <tag>reopen</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Outline / Execution</title>
-    <url>/2020/06/28/outline_execute/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline supports re-execution or repeated execution of the selected single or multiple commands. And you can quickly execute the commands by double-clicking or the context menu.</p>
-<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_execute.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>outline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Restore Sessions</title>
-    <url>/2020/01/22/restore-sessions/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>All last sessions will be restored after restart, and the session only connects to target when its view is actived.</p>
-<h1 id="Restore-Sessions"><a href="#Restore-Sessions" class="headerlink" title="Restore Sessions"></a>Restore Sessions</h1><p><img src="/img/restore_sessions.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>session</tag>
-        <tag>restore</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Preview Window</title>
-    <url>/2020/01/22/preview-window/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The content can be previewed when mouse hovers on the scrollbar.</p>
-<h1 id="Preview-Window"><a href="#Preview-Window" class="headerlink" title="Preview Window"></a>Preview Window</h1><p><img src="/img/preview_window.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>preview</tag>
       </tags>
   </entry>
   <entry>
@@ -1070,6 +1010,90 @@
       </tags>
   </entry>
   <entry>
+    <title>WindTerm - Outline / Copy</title>
+    <url>/2020/06/28/outline_copy/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline supports copying the name or output of a single or multiple command nodes.</p>
+<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_copy.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>outline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Outline</title>
+    <url>/2020/01/23/outline/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline is usually used to collect every command typed and make these commands easier to browser and filter.</p>
+<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>outline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Preview Window</title>
+    <url>/2020/01/22/preview-window/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The content can be previewed when mouse hovers on the scrollbar.</p>
+<h1 id="Preview-Window"><a href="#Preview-Window" class="headerlink" title="Preview Window"></a>Preview Window</h1><p><img src="/img/preview_window.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>preview</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Port Forwarding (Tunnel)</title>
+    <url>/2020/07/21/port_forwarding/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports three types of SSH port forwarding:</p>
+<ul>
+<li><p>Direct/Local port forwarding<br>Connections from an SSH client are forwarded, via the SSH server, to a destination server.</p>
+</li>
+<li><p>Reverse/Remote port forwarding<br>Connections from an SSH server are forwarded, via the SSH client, to a destination server</p>
+</li>
+<li><p>Dynamic port forwarding<br>Connections from various programs are forwarded, via the SSH client to an SSH server, and finally to several destination servers.</p>
+</li>
+</ul>
+<h1 id="Port-Forwarding"><a href="#Port-Forwarding" class="headerlink" title="Port Forwarding"></a>Port Forwarding</h1><ul>
+<li>Direct/Local port forwarding <img src="/img/direct_forwarding.gif" alt="..."></li>
+<li>Reverse/Remote port forwarding <img src="/img/reverse_forwarding.gif" alt="..."></li>
+<li>Dynamic port forwarding <img src="/img/dynamic_forwarding.gif" alt="..."></li>
+</ul>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>port forwarding</tag>
+        <tag>tunnel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Restore Sessions</title>
+    <url>/2020/01/22/restore-sessions/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>All last sessions will be restored after restart, and the session only connects to target when its view is actived.</p>
+<h1 id="Restore-Sessions"><a href="#Restore-Sessions" class="headerlink" title="Restore Sessions"></a>Restore Sessions</h1><p><img src="/img/restore_sessions.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>session</tag>
+        <tag>restore</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WindTerm - Search And Mark</title>
     <url>/2020/01/22/search-and-mark/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The content can be searched and all instances of the current word will be marked.</p>
@@ -1101,6 +1125,25 @@
         <tag>windterm</tag>
         <tag>sender</tag>
         <tag>pane</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Reopen session</title>
+    <url>/2020/01/22/reopen-session/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The closed session can be reopened by Recent menu or shortcut.</p>
+<ul>
+<li>Close current session. (Ctrl+Shift+W)</li>
+<li>Reopen closed session. (Ctrl+Shift+T)</li>
+</ul>
+<h1 id="Restore-Sessions"><a href="#Restore-Sessions" class="headerlink" title="Restore Sessions"></a>Restore Sessions</h1><p><img src="/img/reopen_session.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>session</tag>
+        <tag>reopen</tag>
       </tags>
   </entry>
   <entry>
@@ -1149,6 +1192,129 @@
       </tags>
   </entry>
   <entry>
+    <title>WindTerm - Sender Pane / Send Text</title>
+    <url>/2020/06/20/sender-send-text/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sender pane supports sending text line by line at specified intervals. The minimum interval is 0.1s.</p>
+<h1 id="Send-Text"><a href="#Send-Text" class="headerlink" title="Send Text"></a>Send Text</h1><p><img src="/img/sender_send_text.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>sender</tag>
+        <tag>pane</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Logging</title>
+    <url>/2020/07/21/logging/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm can be configured to start logging upon connecting to the remote site. The following flags can be used in the log file name and each line when logging a session. </p>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th align="center">Output</th>
+<th align="right">Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>%a</td>
+<td align="center">Abbreviated weekday name</td>
+<td align="right">“Thu”</td>
+</tr>
+<tr>
+<td>%A</td>
+<td align="center">Full weekday name</td>
+<td align="right">“Thursday”</td>
+</tr>
+<tr>
+<td>%b</td>
+<td align="center">Abbreviated month name</td>
+<td align="right">“Aug”</td>
+</tr>
+<tr>
+<td>%B</td>
+<td align="center">Full month name</td>
+<td align="right">“August”</td>
+</tr>
+<tr>
+<td>%C</td>
+<td align="center">Year in 2 digits</td>
+<td align="right">“20”</td>
+</tr>
+<tr>
+<td>%d</td>
+<td align="center">Day of month 01-31</td>
+<td align="right">“29”</td>
+</tr>
+<tr>
+<td>%e</td>
+<td align="center">Millisecond part of the current second 000-999</td>
+<td align="right">“678”</td>
+</tr>
+<tr>
+<td>%H</td>
+<td align="center">Hours in 24 format 00-23</td>
+<td align="right">“23”</td>
+</tr>
+<tr>
+<td>%I</td>
+<td align="center">Hours in 12 format 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%M</td>
+<td align="center">Minutes 00-59</td>
+<td align="right">“59”</td>
+</tr>
+<tr>
+<td>%m</td>
+<td align="center">Month 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%n</td>
+<td align="center">Session name</td>
+<td align="right">“10.0.1.2”</td>
+</tr>
+<tr>
+<td>%p</td>
+<td align="center">AM/PM</td>
+<td align="right">“PM”</td>
+</tr>
+<tr>
+<td>%S</td>
+<td align="center">Seconds 00-59</td>
+<td align="right">“58”</td>
+</tr>
+<tr>
+<td>%v</td>
+<td align="center">The actual text to log</td>
+<td align="right">“some session text”</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td align="center">Year in 4 digits</td>
+<td align="right">“2020”</td>
+</tr>
+<tr>
+<td>%%</td>
+<td align="center">The % sign</td>
+<td align="right">“%”</td>
+</tr>
+</tbody></table>
+<h1 id="Logging"><a href="#Logging" class="headerlink" title="Logging"></a>Logging</h1><p><img src="/img/logging.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>logging</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WindTerm - Split Window</title>
     <url>/2020/01/22/split-window/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Use Window menu or toolbar to split window.</p>
@@ -1172,64 +1338,6 @@
       <tags>
         <tag>windterm</tag>
         <tag>split</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Sender Pane / Send Text</title>
-    <url>/2020/06/20/sender-send-text/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sender pane supports sending text line by line at specified intervals. The minimum interval is 0.1s.</p>
-<h1 id="Send-Text"><a href="#Send-Text" class="headerlink" title="Send Text"></a>Send Text</h1><p><img src="/img/sender_send_text.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>sender</tag>
-        <tag>pane</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Tabbar / Duplicate Tab</title>
-    <url>/2020/06/20/tabbar-duplicate-tab/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports duplicating the session tab.</p>
-<h1 id="Duplicate-Tab"><a href="#Duplicate-Tab" class="headerlink" title="Duplicate Tab"></a>Duplicate Tab</h1><p><img src="/img/tabbar_duplicate_tab.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>tabbar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Tabbar / Split Tab</title>
-    <url>/2020/06/20/tabbar-split-tab/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports splitting the session tab horizontally and vertically.</p>
-<h1 id="Split-Tab"><a href="#Split-Tab" class="headerlink" title="Split Tab"></a>Split Tab</h1><p><img src="/img/tabbar_split_tab.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>tabbar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Tabbar / Rename Tab</title>
-    <url>/2020/06/20/tabbar-rename-tab/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Supports to change the tab name through the shortcut menu of the session tab.</p>
-<p><img src="/img/tabbar_shortcut_menu.png" alt="..."></p>
-<h1 id="Rename-Tab"><a href="#Rename-Tab" class="headerlink" title="Rename Tab"></a>Rename Tab</h1><p><img src="/img/tabbar_rename_tab.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>tabbar</tag>
       </tags>
   </entry>
   <entry>
@@ -1276,17 +1384,46 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Tips / Input By Dragging And Dropping Text</title>
-    <url>/2020/06/20/tips-input-by-dragging-and-dropping-text/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports fast input by dragging and dropping text selected internally or text selected in an external programs.</p>
-<h1 id="Input-By-Dragging-And-Dropping-Text"><a href="#Input-By-Dragging-And-Dropping-Text" class="headerlink" title="Input By Dragging And Dropping Text"></a>Input By Dragging And Dropping Text</h1><p><img src="/img/tips_input_by_dragging_and_dropping_text.gif" alt="..."></p>
+    <title>WindTerm - Tabbar / Duplicate Tab</title>
+    <url>/2020/06/20/tabbar-duplicate-tab/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports duplicating the session tab.</p>
+<h1 id="Duplicate-Tab"><a href="#Duplicate-Tab" class="headerlink" title="Duplicate Tab"></a>Duplicate Tab</h1><p><img src="/img/tabbar_duplicate_tab.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
       </categories>
       <tags>
         <tag>windterm</tag>
-        <tag>tips</tag>
+        <tag>tabbar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Tabbar / Split Tab</title>
+    <url>/2020/06/20/tabbar-split-tab/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports splitting the session tab horizontally and vertically.</p>
+<h1 id="Split-Tab"><a href="#Split-Tab" class="headerlink" title="Split Tab"></a>Split Tab</h1><p><img src="/img/tabbar_split_tab.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>tabbar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Tabbar / Rename Tab</title>
+    <url>/2020/06/20/tabbar-rename-tab/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Supports to change the tab name through the shortcut menu of the session tab.</p>
+<p><img src="/img/tabbar_shortcut_menu.png" alt="..."></p>
+<h1 id="Rename-Tab"><a href="#Rename-Tab" class="headerlink" title="Rename Tab"></a>Rename Tab</h1><p><img src="/img/tabbar_rename_tab.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>tabbar</tag>
       </tags>
   </entry>
   <entry>
@@ -1336,42 +1473,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Tips / Text Selection</title>
-    <url>/2020/06/20/tips-text-selection/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports selecting different parts of the text by clicking on the separator boundary. This is very convenient for selecting a path or URL.</p>
-<h1 id="Text-Selection"><a href="#Text-Selection" class="headerlink" title="Text Selection"></a>Text Selection</h1><p><img src="/img/tips_text_selection.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>tips</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindTerm - Toggle Margin</title>
-    <url>/2020/01/22/toggle-margin/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Margins can be shown or hidden by View menu or shortcuts.</p>
-<h1 id="Margins"><a href="#Margins" class="headerlink" title="Margins"></a>Margins</h1><p>Five margin types are supported now:</p>
-<ul>
-<li>Line number   (Alt+T, Alt+N)</li>
-<li>Timestamp     (Alt+T, Alt+T)</li>
-<li>Fold          (Alt+T, Alt+F)</li>
-<li>Symbol        (Alt+T, Alt+S)</li>
-<li>Blank         (Alt+T, Alt+B)</li>
-</ul>
-<p><img src="/img/toggle_margin.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>margin</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Tips / Restore Tabs</title>
     <url>/2020/06/20/tips-restore-tabs/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports restoring recently closed tabs.</p>
@@ -1402,33 +1503,31 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Transfer / Sftp / Benchmark</title>
-    <url>/2020/06/21/transfer-download-upload-benchmark/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer has very fast upload and download speed for huge files and many small files.</p>
-<h1 id="Benchmark"><a href="#Benchmark" class="headerlink" title="Benchmark"></a>Benchmark</h1><p><img src="/img/transfer_download_upload_benchmark.gif" alt="..."></p>
+    <title>WindTerm - Tips / Input By Dragging And Dropping Text</title>
+    <url>/2020/06/20/tips-input-by-dragging-and-dropping-text/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports fast input by dragging and dropping text selected internally or text selected in an external programs.</p>
+<h1 id="Input-By-Dragging-And-Dropping-Text"><a href="#Input-By-Dragging-And-Dropping-Text" class="headerlink" title="Input By Dragging And Dropping Text"></a>Input By Dragging And Dropping Text</h1><p><img src="/img/tips_input_by_dragging_and_dropping_text.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
       </categories>
       <tags>
         <tag>windterm</tag>
-        <tag>transfer</tag>
-        <tag>sftp</tag>
+        <tag>tips</tag>
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Transfer / Sftp / Create Folder/File/Link</title>
-    <url>/2020/06/21/transfer-create-folder-file-link/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports creating a new folder/file/link in the current folder, and you can set whether to automatically open it after the directory or file is created.</p>
-<h1 id="Create-Folder-File-Link"><a href="#Create-Folder-File-Link" class="headerlink" title="Create Folder/File/Link"></a>Create Folder/File/Link</h1><p><img src="/img/transfer_create_folder_file_link.gif" alt="..."></p>
+    <title>WindTerm - Tips / Text Selection</title>
+    <url>/2020/06/20/tips-text-selection/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports selecting different parts of the text by clicking on the separator boundary. This is very convenient for selecting a path or URL.</p>
+<h1 id="Text-Selection"><a href="#Text-Selection" class="headerlink" title="Text Selection"></a>Text Selection</h1><p><img src="/img/tips_text_selection.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
       </categories>
       <tags>
         <tag>windterm</tag>
-        <tag>transfer</tag>
-        <tag>sftp</tag>
+        <tag>tips</tag>
       </tags>
   </entry>
   <entry>
@@ -1462,10 +1561,32 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Transfer / Sftp / Move To</title>
-    <url>/2020/06/21/transfer-move-to/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports moving multiple folders or files from one folder to another.</p>
-<h1 id="Move-To"><a href="#Move-To" class="headerlink" title="Move To"></a>Move To</h1><p><img src="/img/transfer_move_to.gif" alt="..."></p>
+    <title>WindTerm - Toggle Margin</title>
+    <url>/2020/01/22/toggle-margin/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Margins can be shown or hidden by View menu or shortcuts.</p>
+<h1 id="Margins"><a href="#Margins" class="headerlink" title="Margins"></a>Margins</h1><p>Five margin types are supported now:</p>
+<ul>
+<li>Line number   (Alt+T, Alt+N)</li>
+<li>Timestamp     (Alt+T, Alt+T)</li>
+<li>Fold          (Alt+T, Alt+F)</li>
+<li>Symbol        (Alt+T, Alt+S)</li>
+<li>Blank         (Alt+T, Alt+B)</li>
+</ul>
+<p><img src="/img/toggle_margin.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>margin</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Transfer / Sftp / Create Folder/File/Link</title>
+    <url>/2020/06/21/transfer-create-folder-file-link/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports creating a new folder/file/link in the current folder, and you can set whether to automatically open it after the directory or file is created.</p>
+<h1 id="Create-Folder-File-Link"><a href="#Create-Folder-File-Link" class="headerlink" title="Create Folder/File/Link"></a>Create Folder/File/Link</h1><p><img src="/img/transfer_create_folder_file_link.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -1481,6 +1602,51 @@
     <url>/2020/06/21/transfer-filter-items/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports filtering items in the current folder. You can freely input and filter at any time.</p>
 <h1 id="Filter-Items"><a href="#Filter-Items" class="headerlink" title="Filter Items"></a>Filter Items</h1><p><img src="/img/transfer_filter_items.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>transfer</tag>
+        <tag>sftp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Transfer / Sftp / Open With Default Editor</title>
+    <url>/2020/06/21/transfer-open-with-default-editor/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports opening a file with the specified default editor. When the file is edited, you can choose whether to upload the file automatically.</p>
+<h1 id="Open-With-Default-Editor"><a href="#Open-With-Default-Editor" class="headerlink" title="Open With Default Editor"></a>Open With Default Editor</h1><p><img src="/img/transfer_open_with_default_editor.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>transfer</tag>
+        <tag>sftp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Transfer / Sftp / Benchmark</title>
+    <url>/2020/06/21/transfer-download-upload-benchmark/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer has very fast upload and download speed for huge files and many small files.</p>
+<h1 id="Benchmark"><a href="#Benchmark" class="headerlink" title="Benchmark"></a>Benchmark</h1><p><img src="/img/transfer_download_upload_benchmark.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>transfer</tag>
+        <tag>sftp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Transfer / Sftp / Move To</title>
+    <url>/2020/06/21/transfer-move-to/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports moving multiple folders or files from one folder to another.</p>
+<h1 id="Move-To"><a href="#Move-To" class="headerlink" title="Move To"></a>Move To</h1><p><img src="/img/transfer_move_to.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -1522,21 +1688,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Transfer / Sftp / Removing</title>
-    <url>/2020/06/21/transfer-removing/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports removing multiple folders and files.</p>
-<h1 id="Removing"><a href="#Removing" class="headerlink" title="Removing"></a>Removing</h1><p><img src="/img/transfer_removing.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>transfer</tag>
-        <tag>sftp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Transfer / Sftp / Upload</title>
     <url>/2020/06/21/transfer-upload/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports uploading multiple folders or files to the host.</p>
@@ -1552,10 +1703,10 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Transfer / Sftp / Open With Default Editor</title>
-    <url>/2020/06/21/transfer-open-with-default-editor/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports opening a file with the specified default editor. When the file is edited, you can choose whether to upload the file automatically.</p>
-<h1 id="Open-With-Default-Editor"><a href="#Open-With-Default-Editor" class="headerlink" title="Open With Default Editor"></a>Open With Default Editor</h1><p><img src="/img/transfer_open_with_default_editor.gif" alt="..."></p>
+    <title>WindTerm - Transfer / Sftp / Removing</title>
+    <url>/2020/06/21/transfer-removing/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports removing multiple folders and files.</p>
+<h1 id="Removing"><a href="#Removing" class="headerlink" title="Removing"></a>Removing</h1><p><img src="/img/transfer_removing.gif" alt="..."></p>
 ]]></content>
       <categories>
         <category>WindTerm</category>
@@ -1564,6 +1715,26 @@
         <tag>windterm</tag>
         <tag>transfer</tag>
         <tag>sftp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - X11 Forwarding</title>
+    <url>/2020/07/21/x11_forwarding/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports X11 forwarding, which allows a user to start up remote applications but forward the application display to the local machine.</p>
+<ul>
+<li><p>Internal X display<br>WindTerm uses XMing as an embedded X server. WindTerm can start XMing automatically when X11 forwarding requests with no extra configuration.</p>
+</li>
+<li><p>External X display<br>WindTerm supports external X server too, just uses “IP:DisplayNum.ScreenNum” to point to the location of your local X server.</p>
+</li>
+</ul>
+<h1 id="X11-Forwarding"><a href="#X11-Forwarding" class="headerlink" title="X11 Forwarding"></a>X11 Forwarding</h1><p><img src="/img/x11_forwarding.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>X11 forwarding</tag>
       </tags>
   </entry>
   <entry>
