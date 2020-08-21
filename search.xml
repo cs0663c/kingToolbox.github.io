@@ -1478,21 +1478,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - SSH Agent Forwading</title>
-    <url>/2020/08/22/ssh_agent/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports SSH agent forwarding. On the windows platform, currently only pageant is supported.</p>
-<h1 id="SSH-Agent-Forwarding"><a href="#SSH-Agent-Forwarding" class="headerlink" title="SSH Agent Forwarding"></a>SSH Agent Forwarding</h1><p><img src="/img/pageant.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>ssh</tag>
-        <tag>agent forwarding</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Tabbar / Split Tab</title>
     <url>/2020/06/20/tabbar-split-tab/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports splitting the session tab horizontally and vertically.</p>
@@ -1972,6 +1957,21 @@
       <tags>
         <tag>windterm</tag>
         <tag>performance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - SSH Agent Forwading</title>
+    <url>/2020/08/22/ssh_agent_forwarding/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports SSH agent forwarding. On the windows platform, currently only pageant is supported.</p>
+<h1 id="SSH-Agent-Forwarding"><a href="#SSH-Agent-Forwarding" class="headerlink" title="SSH Agent Forwarding"></a>SSH Agent Forwarding</h1><p><img src="/img/pageant.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>ssh</tag>
+        <tag>agent forwarding</tag>
       </tags>
   </entry>
 </search>
