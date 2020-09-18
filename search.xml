@@ -1974,4 +1974,38 @@
         <tag>agent forwarding</tag>
       </tags>
   </entry>
+  <entry>
+    <title>WindTerm - Theme</title>
+    <url>/2020/09/18/theme/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports changing the theme through the menu or command pallete (alt+;). Three themes are supported now. The theme config syntax is compatible with vscode and fully extensible. A document will describe how to design your own theme later.</p>
+<ul>
+<li>Dige Black</li>
+<li>Dige Black And White</li>
+<li>Dige White</li>
+</ul>
+<h1 id="Highlight"><a href="#Highlight" class="headerlink" title="Highlight"></a>Highlight</h1><p><img src="/img/theme.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>theme</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Tabbar / Set Tab Color</title>
+    <url>/2020/09/18/tabbar-change-tabcolor/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Supports to set the tab color through the shortcut menu of the session tab. Color includes preset colors and custom colors.</p>
+<p><img src="/img/tabbar_set_tabcolor_menu.png" alt="..."></p>
+<h1 id="Set-Tab-Color"><a href="#Set-Tab-Color" class="headerlink" title="Set Tab Color"></a>Set Tab Color</h1><p><img src="/img/tabbar_set_tabcolor.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>tabbar</tag>
+      </tags>
+  </entry>
 </search>
