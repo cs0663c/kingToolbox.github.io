@@ -736,114 +736,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Logging</title>
-    <url>/2020/07/21/logging/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm can be configured to start logging upon connecting to the remote site. The following flags can be used in the log file name and each line when logging a session. </p>
-<table>
-<thead>
-<tr>
-<th>Flag</th>
-<th align="center">Output</th>
-<th align="right">Example</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>%a</td>
-<td align="center">Abbreviated weekday name</td>
-<td align="right">“Thu”</td>
-</tr>
-<tr>
-<td>%A</td>
-<td align="center">Full weekday name</td>
-<td align="right">“Thursday”</td>
-</tr>
-<tr>
-<td>%b</td>
-<td align="center">Abbreviated month name</td>
-<td align="right">“Aug”</td>
-</tr>
-<tr>
-<td>%B</td>
-<td align="center">Full month name</td>
-<td align="right">“August”</td>
-</tr>
-<tr>
-<td>%C</td>
-<td align="center">Year in 2 digits</td>
-<td align="right">“20”</td>
-</tr>
-<tr>
-<td>%d</td>
-<td align="center">Day of month 01-31</td>
-<td align="right">“29”</td>
-</tr>
-<tr>
-<td>%e</td>
-<td align="center">Millisecond part of the current second 000-999</td>
-<td align="right">“678”</td>
-</tr>
-<tr>
-<td>%H</td>
-<td align="center">Hours in 24 format 00-23</td>
-<td align="right">“23”</td>
-</tr>
-<tr>
-<td>%I</td>
-<td align="center">Hours in 12 format 01-12</td>
-<td align="right">“11”</td>
-</tr>
-<tr>
-<td>%M</td>
-<td align="center">Minutes 00-59</td>
-<td align="right">“59”</td>
-</tr>
-<tr>
-<td>%m</td>
-<td align="center">Month 01-12</td>
-<td align="right">“11”</td>
-</tr>
-<tr>
-<td>%n</td>
-<td align="center">Session name</td>
-<td align="right">“10.0.1.2”</td>
-</tr>
-<tr>
-<td>%p</td>
-<td align="center">AM/PM</td>
-<td align="right">“PM”</td>
-</tr>
-<tr>
-<td>%S</td>
-<td align="center">Seconds 00-59</td>
-<td align="right">“58”</td>
-</tr>
-<tr>
-<td>%v</td>
-<td align="center">The actual text to log</td>
-<td align="right">“some session text”</td>
-</tr>
-<tr>
-<td>%Y</td>
-<td align="center">Year in 4 digits</td>
-<td align="right">“2020”</td>
-</tr>
-<tr>
-<td>%%</td>
-<td align="center">The % sign</td>
-<td align="right">“%”</td>
-</tr>
-</tbody></table>
-<h1 id="Logging"><a href="#Logging" class="headerlink" title="Logging"></a>Logging</h1><p><img src="/img/logging.gif" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>logging</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Keyboard / Local Mode / Searching Keys</title>
     <url>/2020/06/21/keyboard-searching-keys/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Local mode supports the following searching keys of Vim.</p>
@@ -1221,6 +1113,7 @@
         <tag>windterm</tag>
         <tag>port forwarding</tag>
         <tag>tunnel</tag>
+        <tag>proxy</tag>
       </tags>
   </entry>
   <entry>
@@ -2006,6 +1899,245 @@
       <tags>
         <tag>windterm</tag>
         <tag>X11 forwarding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Logging / Automated Logging</title>
+    <url>/2020/10/16/automated_logging/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm can be configured to start logging automatically upon connecting to the remote site.</p>
+<p>You can start, stop, pause, resume and browse logging at any time also, please read <a href="/2020/10/16/manual_logging/" title="Manual Logging">Manual Logging</a>.</p>
+<p>The following flags can be used in the log file name and each line when logging a session. </p>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th align="center">Output</th>
+<th align="right">Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>%a</td>
+<td align="center">Abbreviated weekday name</td>
+<td align="right">“Thu”</td>
+</tr>
+<tr>
+<td>%A</td>
+<td align="center">Full weekday name</td>
+<td align="right">“Thursday”</td>
+</tr>
+<tr>
+<td>%b</td>
+<td align="center">Abbreviated month name</td>
+<td align="right">“Aug”</td>
+</tr>
+<tr>
+<td>%B</td>
+<td align="center">Full month name</td>
+<td align="right">“August”</td>
+</tr>
+<tr>
+<td>%C</td>
+<td align="center">Year in 2 digits</td>
+<td align="right">“20”</td>
+</tr>
+<tr>
+<td>%d</td>
+<td align="center">Day of month 01-31</td>
+<td align="right">“29”</td>
+</tr>
+<tr>
+<td>%e</td>
+<td align="center">Millisecond part of the current second 000-999</td>
+<td align="right">“678”</td>
+</tr>
+<tr>
+<td>%H</td>
+<td align="center">Hours in 24 format 00-23</td>
+<td align="right">“23”</td>
+</tr>
+<tr>
+<td>%I</td>
+<td align="center">Hours in 12 format 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%M</td>
+<td align="center">Minutes 00-59</td>
+<td align="right">“59”</td>
+</tr>
+<tr>
+<td>%m</td>
+<td align="center">Month 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%n</td>
+<td align="center">Session name</td>
+<td align="right">“10.0.1.2”</td>
+</tr>
+<tr>
+<td>%p</td>
+<td align="center">AM/PM</td>
+<td align="right">“PM”</td>
+</tr>
+<tr>
+<td>%S</td>
+<td align="center">Seconds 00-59</td>
+<td align="right">“58”</td>
+</tr>
+<tr>
+<td>%v</td>
+<td align="center">The actual text to log</td>
+<td align="right">“some session text”</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td align="center">Year in 4 digits</td>
+<td align="right">“2020”</td>
+</tr>
+<tr>
+<td>%%</td>
+<td align="center">The % sign</td>
+<td align="right">“%”</td>
+</tr>
+</tbody></table>
+<h1 id="Auto-Logging"><a href="#Auto-Logging" class="headerlink" title="Auto Logging"></a>Auto Logging</h1><p><img src="/img/automated_logging.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>logging</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Logging / Manual Logging</title>
+    <url>/2020/10/16/manual_logging/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports start, stop, pause, resume and browse logging at any time. There are two ways perform manual logging:</p>
+<ul>
+<li>Main windows’s menu - Session - Log</li>
+<li>Session view’s context menu - Log</li>
+</ul>
+<p>You can start logging automatically upon connecting to the remote site also, please read <a href="/2020/10/16/automated_logging/" title="Automated Logging">Automated Logging</a>.</p>
+<p>The following flags can be used in the log file name and each line when logging a session. </p>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th align="center">Output</th>
+<th align="right">Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>%a</td>
+<td align="center">Abbreviated weekday name</td>
+<td align="right">“Thu”</td>
+</tr>
+<tr>
+<td>%A</td>
+<td align="center">Full weekday name</td>
+<td align="right">“Thursday”</td>
+</tr>
+<tr>
+<td>%b</td>
+<td align="center">Abbreviated month name</td>
+<td align="right">“Aug”</td>
+</tr>
+<tr>
+<td>%B</td>
+<td align="center">Full month name</td>
+<td align="right">“August”</td>
+</tr>
+<tr>
+<td>%C</td>
+<td align="center">Year in 2 digits</td>
+<td align="right">“20”</td>
+</tr>
+<tr>
+<td>%d</td>
+<td align="center">Day of month 01-31</td>
+<td align="right">“29”</td>
+</tr>
+<tr>
+<td>%e</td>
+<td align="center">Millisecond part of the current second 000-999</td>
+<td align="right">“678”</td>
+</tr>
+<tr>
+<td>%H</td>
+<td align="center">Hours in 24 format 00-23</td>
+<td align="right">“23”</td>
+</tr>
+<tr>
+<td>%I</td>
+<td align="center">Hours in 12 format 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%M</td>
+<td align="center">Minutes 00-59</td>
+<td align="right">“59”</td>
+</tr>
+<tr>
+<td>%m</td>
+<td align="center">Month 01-12</td>
+<td align="right">“11”</td>
+</tr>
+<tr>
+<td>%n</td>
+<td align="center">Session name</td>
+<td align="right">“10.0.1.2”</td>
+</tr>
+<tr>
+<td>%p</td>
+<td align="center">AM/PM</td>
+<td align="right">“PM”</td>
+</tr>
+<tr>
+<td>%S</td>
+<td align="center">Seconds 00-59</td>
+<td align="right">“58”</td>
+</tr>
+<tr>
+<td>%v</td>
+<td align="center">The actual text to log</td>
+<td align="right">“some session text”</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td align="center">Year in 4 digits</td>
+<td align="right">“2020”</td>
+</tr>
+<tr>
+<td>%%</td>
+<td align="center">The % sign</td>
+<td align="right">“%”</td>
+</tr>
+</tbody></table>
+<h1 id="Logging"><a href="#Logging" class="headerlink" title="Logging"></a>Logging</h1><p><img src="/img/manual_logging.png" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>logging</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Network Proxy</title>
+    <url>/2020/10/17/proxy/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports HTTP proxy and SOCKS5 proxy.</p>
+<p>The currently supported authentication methods are no authentication and username/password authentication. Both IPv4 and IPv6 are supported. Domain names are resolved through the proxy server if the <strong>Perform DNS lookup with proxy</strong> is checked, otherwise they are resolved locally and the IP address is sent to the server.</p>
+<h1 id="Network-Porxy"><a href="#Network-Porxy" class="headerlink" title="Network Porxy"></a>Network Porxy</h1><p><img src="/img/network_proxy.png" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>proxy</tag>
       </tags>
   </entry>
 </search>
