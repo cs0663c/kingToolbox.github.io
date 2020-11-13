@@ -2140,4 +2140,35 @@
         <tag>proxy</tag>
       </tags>
   </entry>
+  <entry>
+    <title>WindTerm - Search Online</title>
+    <url>/2020/11/13/search-online/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The selection can be searched online, the default engines include Google, Bing, Github, Stackoverflow, Wikipedia, DuckDuckGo.</p>
+<h1 id="Search-Online"><a href="#Search-Online" class="headerlink" title="Search Online"></a>Search Online</h1><p><img src="/img/search_online.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>search</tag>
+        <tag>online</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Windows Opacity</title>
+    <url>/2020/11/13/windows-opacity/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The windows opacity can be set from transparent to opauqe to facilitate reading the content below the window.</p>
+<h1 id="windows-Opacity"><a href="#windows-Opacity" class="headerlink" title="windows Opacity"></a>windows Opacity</h1><p><img src="/img/windows_opacity.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>transparent</tag>
+        <tag>translucent</tag>
+        <tag>opaque</tag>
+        <tag>opacity</tag>
+      </tags>
+  </entry>
 </search>
