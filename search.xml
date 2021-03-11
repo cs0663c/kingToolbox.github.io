@@ -641,7 +641,7 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>Shift+Enter</td>
+<td>Alt+Enter</td>
 <td align="center">Toggle the remote and local mode</td>
 </tr>
 <tr>
@@ -2126,21 +2126,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindTerm - Network Proxy</title>
-    <url>/2020/10/17/proxy/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports HTTP proxy and SOCKS5 proxy.</p>
-<p>The currently supported authentication methods are no authentication and username/password authentication. Both IPv4 and IPv6 are supported. Domain names are resolved through the proxy server if the <strong>Perform DNS lookup with proxy</strong> is checked, otherwise they are resolved locally and the IP address is sent to the server.</p>
-<h1 id="Network-Porxy"><a href="#Network-Porxy" class="headerlink" title="Network Porxy"></a>Network Porxy</h1><p><img src="/img/network_proxy.png" alt="..."></p>
-]]></content>
-      <categories>
-        <category>WindTerm</category>
-      </categories>
-      <tags>
-        <tag>windterm</tag>
-        <tag>proxy</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>WindTerm - Search Online</title>
     <url>/2020/11/13/search-online/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The selection can be searched online, the default engines include Google, Bing, Github, Stackoverflow, Wikipedia, DuckDuckGo.</p>
@@ -2169,6 +2154,50 @@
         <tag>translucent</tag>
         <tag>opaque</tag>
         <tag>opacity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Network Proxy / HTTP and SOCKS5 proxy</title>
+    <url>/2021/03/11/proxy-http-socks5/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports HTTP proxy and SOCKS5 proxy.</p>
+<p>SOCKS5 prxoy is usually equivalent to use OpenSSH ProxyCommand to connect through socks5 proxy, like ProxyCommand “/usr/bin/nc -X 5 -x 127.0.0.1:7777 %h %p”.</p>
+<p>The currently supported authentication methods are no authentication and username/password authentication. Both IPv4 and IPv6 are supported. Domain names are resolved through the proxy server if the <strong>Perform DNS lookup with proxy</strong> is checked, otherwise they are resolved locally and the IP address is sent to the server.</p>
+<h1 id="Network-Porxy"><a href="#Network-Porxy" class="headerlink" title="Network Porxy"></a>Network Porxy</h1><p><img src="/img/network_proxy.png" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>proxy</tag>
+        <tag>http</tag>
+        <tag>socks</tag>
+        <tag>proxycommand</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Network Proxy / Jump Server</title>
+    <url>/2021/03/11/proxy-jump-server/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports Jump Server proxy.</p>
+<p>SSH supports jump server using ProxyCommand. Some times a remote server can only be accessed via ssh by first login into an intermediary server. So you need first login into to the intermediary server and then ssh to another server. And the chain can be long and is not limited to just two servers. OpenSSH supports specify ProxyCommand and ProxyJump using -W and -J options.</p>
+<p>WindTerm simplifies the connection. You only need to set the proxy type of the session to Jump Server, then you can specify the intermediate server in the configured sessions. Up to four intermediate servers can be specified at the same time.</p>
+<p>If you need to specify more than four intermediate servers, you can chain multiple intermediate servers. In this way, an unlimited number of intermediate servers can be supported. For example, when you need to specify six intermediate servers (Host -&gt; Jump Server 6 -&gt; Jump Server 5 -&gt; Jump Server 4 -&gt; Jump Server 3 -&gt; Jump Server 2 -&gt; Jump Server 1 -&gt; Remote), you can configure as follows:</p>
+<code>
+Jump Server 3 -> Jump Server 2 -> Jump Server 1
+Jump Server 6 -> Jump Server 5 -> Jump Server 4
+Host -> Jump Server 6 -> Jump Server 3
+</code>
+
+<h1 id="Jump-Server"><a href="#Jump-Server" class="headerlink" title="Jump Server"></a>Jump Server</h1><p><img src="/img/jump_server.png" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>proxy</tag>
+        <tag>proxycommand</tag>
+        <tag>jump server</tag>
       </tags>
   </entry>
 </search>
