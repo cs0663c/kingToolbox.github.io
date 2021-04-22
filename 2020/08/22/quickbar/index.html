@@ -56,7 +56,7 @@
 <meta property="og:image" content="https://kingtoolbox.github.io/img/quickbar_commands.gif">
 <meta property="og:image" content="https://kingtoolbox.github.io/img/quickbar_groups.gif">
 <meta property="article:published_time" content="2020-08-21T22:38:08.000Z">
-<meta property="article:modified_time" content="2020-08-21T23:15:30.031Z">
+<meta property="article:modified_time" content="2021-04-22T21:48:18.524Z">
 <meta property="article:author" content="KingToolbox">
 <meta property="article:tag" content="windterm">
 <meta property="article:tag" content="quickbar">
@@ -236,10 +236,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2020-08-22 06:38:08 / Modified: 07:15:30" itemprop="dateCreated datePublished" datetime="2020-08-22T06:38:08+08:00">2020-08-22</time>
+              <time title="Created: 2020-08-22 06:38:08" itemprop="dateCreated datePublished" datetime="2020-08-22T06:38:08+08:00">2020-08-22</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-04-23 05:48:18" itemprop="dateModified" datetime="2021-04-23T05:48:18+08:00">2021-04-23</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -264,6 +270,80 @@
 
       
         <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Quickbar is a customizable row of buttons you can use for quick access to saved commands. Each command can be configured with label, text to be sent, icon and so on. You can also configure whether to display multiple groups at the same time, display group labels, and display command sets in order.</p>
+<p>The following escape characters can be used in the sent text:</p>
+<table>
+<thead>
+<tr>
+<th>Char</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\0</td>
+<td align="center">null (NUL, 0x00)</td>
+</tr>
+<tr>
+<td>\a</td>
+<td align="center">bell (BEL, 0x07)</td>
+</tr>
+<tr>
+<td>\b</td>
+<td align="center">backspace (BS, 0x08)</td>
+</tr>
+<tr>
+<td>\t</td>
+<td align="center">horizontal tab (HT, 0x09)</td>
+</tr>
+<tr>
+<td>\n</td>
+<td align="center">line feed (LF, 0x0A)</td>
+</tr>
+<tr>
+<td>\v</td>
+<td align="center">vertical tab (VT, 0x0B)</td>
+</tr>
+<tr>
+<td>\f</td>
+<td align="center">form feed (FF, 0x0C)</td>
+</tr>
+<tr>
+<td>\r</td>
+<td align="center">carriage return (CR, 0x0D)</td>
+</tr>
+<tr>
+<td>\</td>
+<td align="center">backslash (0x5C)</td>
+</tr>
+<tr>
+<td>\nnn</td>
+<td align="center">octal char</td>
+</tr>
+<tr>
+<td>\xHH</td>
+<td align="center">hexadecimal char</td>
+</tr>
+<tr>
+<td>\uHHHH</td>
+<td align="center">wide hexadecimal char</td>
+</tr>
+<tr>
+<td>\cx</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\c-x</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\mx</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+<tr>
+<td>\m-x</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+</tbody></table>
+<p>For example, either <code>\003</code> or <code>\x03</code> or <code>\u0003</code> or <code>\cc</code> or <code>\c-c</code> can be used to send the key <code>Ctrl+C</code>(same as the ASCII character <code>EXT, 0x03</code>).</p>
 <h1 id="QuickBar"><a href="#QuickBar" class="headerlink" title="QuickBar"></a>QuickBar</h1><p><img src="/img/quickbar_commands.gif" alt="QuickBar Commands"><br><img src="/img/quickbar_groups.gif" alt="QuickBar Groups"></p>
 
     </div>
@@ -364,7 +444,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">83</span>
+          <span class="site-state-item-count">86</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -377,7 +457,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">63</span>
+        <span class="site-state-item-count">66</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>

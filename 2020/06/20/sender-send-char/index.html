@@ -46,16 +46,16 @@
   };
 </script>
 
-  <meta name="description" content="Quick StartSender pane supports sending text char by char at specified intervals. The minimum interval is 20ms. Send Chars">
+  <meta name="description" content="Quick StartSender pane supports sending text char by char at specified intervals. The minimum interval is 20ms. The following escape characters can be used in the sent text:    Char Description    \0">
 <meta property="og:type" content="article">
 <meta property="og:title" content="WindTerm - Sender Pane &#x2F; Send Chars">
 <meta property="og:url" content="https://kingtoolbox.github.io/2020/06/20/sender-send-char/index.html">
 <meta property="og:site_name" content="WindTerm and WindEdit">
-<meta property="og:description" content="Quick StartSender pane supports sending text char by char at specified intervals. The minimum interval is 20ms. Send Chars">
+<meta property="og:description" content="Quick StartSender pane supports sending text char by char at specified intervals. The minimum interval is 20ms. The following escape characters can be used in the sent text:    Char Description    \0">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://kingtoolbox.github.io/img/sender_send_char.gif">
 <meta property="article:published_time" content="2020-06-19T20:08:22.000Z">
-<meta property="article:modified_time" content="2020-06-22T19:24:57.412Z">
+<meta property="article:modified_time" content="2021-04-22T21:48:30.048Z">
 <meta property="article:author" content="KingToolbox">
 <meta property="article:tag" content="windterm">
 <meta property="article:tag" content="sender">
@@ -244,7 +244,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-06-23 03:24:57" itemprop="dateModified" datetime="2020-06-23T03:24:57+08:00">2020-06-23</time>
+                <time title="Modified: 2021-04-23 05:48:30" itemprop="dateModified" datetime="2021-04-23T05:48:30+08:00">2021-04-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -270,6 +270,80 @@
 
       
         <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sender pane supports sending text char by char at specified intervals. The minimum interval is 20ms.</p>
+<p>The following escape characters can be used in the sent text:</p>
+<table>
+<thead>
+<tr>
+<th>Char</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\0</td>
+<td align="center">null (NUL, 0x00)</td>
+</tr>
+<tr>
+<td>\a</td>
+<td align="center">bell (BEL, 0x07)</td>
+</tr>
+<tr>
+<td>\b</td>
+<td align="center">backspace (BS, 0x08)</td>
+</tr>
+<tr>
+<td>\t</td>
+<td align="center">horizontal tab (HT, 0x09)</td>
+</tr>
+<tr>
+<td>\n</td>
+<td align="center">line feed (LF, 0x0A)</td>
+</tr>
+<tr>
+<td>\v</td>
+<td align="center">vertical tab (VT, 0x0B)</td>
+</tr>
+<tr>
+<td>\f</td>
+<td align="center">form feed (FF, 0x0C)</td>
+</tr>
+<tr>
+<td>\r</td>
+<td align="center">carriage return (CR, 0x0D)</td>
+</tr>
+<tr>
+<td>\</td>
+<td align="center">backslash (0x5C)</td>
+</tr>
+<tr>
+<td>\nnn</td>
+<td align="center">octal char</td>
+</tr>
+<tr>
+<td>\xHH</td>
+<td align="center">hexadecimal char</td>
+</tr>
+<tr>
+<td>\uHHHH</td>
+<td align="center">wide hexadecimal char</td>
+</tr>
+<tr>
+<td>\cx</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\c-x</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\mx</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+<tr>
+<td>\m-x</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+</tbody></table>
+<p>For example, either <code>\003</code> or <code>\x03</code> or <code>\u0003</code> or <code>\cc</code> or <code>\c-c</code> can be used to send the key <code>Ctrl+C</code>(same as the ASCII character <code>EXT, 0x03</code>).</p>
 <h1 id="Send-Chars"><a href="#Send-Chars" class="headerlink" title="Send Chars"></a>Send Chars</h1><p><img src="/img/sender_send_char.gif" alt="..."></p>
 
     </div>
@@ -371,7 +445,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">83</span>
+          <span class="site-state-item-count">86</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -384,7 +458,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">63</span>
+        <span class="site-state-item-count">66</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>

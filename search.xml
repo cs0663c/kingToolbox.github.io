@@ -1453,6 +1453,80 @@
     <title>WindTerm - QuickBar</title>
     <url>/2020/08/22/quickbar/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Quickbar is a customizable row of buttons you can use for quick access to saved commands. Each command can be configured with label, text to be sent, icon and so on. You can also configure whether to display multiple groups at the same time, display group labels, and display command sets in order.</p>
+<p>The following escape characters can be used in the sent text:</p>
+<table>
+<thead>
+<tr>
+<th>Char</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\0</td>
+<td align="center">null (NUL, 0x00)</td>
+</tr>
+<tr>
+<td>\a</td>
+<td align="center">bell (BEL, 0x07)</td>
+</tr>
+<tr>
+<td>\b</td>
+<td align="center">backspace (BS, 0x08)</td>
+</tr>
+<tr>
+<td>\t</td>
+<td align="center">horizontal tab (HT, 0x09)</td>
+</tr>
+<tr>
+<td>\n</td>
+<td align="center">line feed (LF, 0x0A)</td>
+</tr>
+<tr>
+<td>\v</td>
+<td align="center">vertical tab (VT, 0x0B)</td>
+</tr>
+<tr>
+<td>\f</td>
+<td align="center">form feed (FF, 0x0C)</td>
+</tr>
+<tr>
+<td>\r</td>
+<td align="center">carriage return (CR, 0x0D)</td>
+</tr>
+<tr>
+<td>\</td>
+<td align="center">backslash (0x5C)</td>
+</tr>
+<tr>
+<td>\nnn</td>
+<td align="center">octal char</td>
+</tr>
+<tr>
+<td>\xHH</td>
+<td align="center">hexadecimal char</td>
+</tr>
+<tr>
+<td>\uHHHH</td>
+<td align="center">wide hexadecimal char</td>
+</tr>
+<tr>
+<td>\cx</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\c-x</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\mx</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+<tr>
+<td>\m-x</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+</tbody></table>
+<p>For example, either <code>\003</code> or <code>\x03</code> or <code>\u0003</code> or <code>\cc</code> or <code>\c-c</code> can be used to send the key <code>Ctrl+C</code>(same as the ASCII character <code>EXT, 0x03</code>).</p>
 <h1 id="QuickBar"><a href="#QuickBar" class="headerlink" title="QuickBar"></a>QuickBar</h1><p><img src="/img/quickbar_commands.gif" alt="QuickBar Commands"><br><img src="/img/quickbar_groups.gif" alt="QuickBar Groups"></p>
 ]]></content>
       <categories>
@@ -1580,6 +1654,80 @@
     <title>WindTerm - Sender Pane / Send Text</title>
     <url>/2020/06/20/sender-send-text/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sender pane supports sending text line by line at specified intervals. The minimum interval is 0.1s.</p>
+<p>The following escape characters can be used in the sent text:</p>
+<table>
+<thead>
+<tr>
+<th>Char</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\0</td>
+<td align="center">null (NUL, 0x00)</td>
+</tr>
+<tr>
+<td>\a</td>
+<td align="center">bell (BEL, 0x07)</td>
+</tr>
+<tr>
+<td>\b</td>
+<td align="center">backspace (BS, 0x08)</td>
+</tr>
+<tr>
+<td>\t</td>
+<td align="center">horizontal tab (HT, 0x09)</td>
+</tr>
+<tr>
+<td>\n</td>
+<td align="center">line feed (LF, 0x0A)</td>
+</tr>
+<tr>
+<td>\v</td>
+<td align="center">vertical tab (VT, 0x0B)</td>
+</tr>
+<tr>
+<td>\f</td>
+<td align="center">form feed (FF, 0x0C)</td>
+</tr>
+<tr>
+<td>\r</td>
+<td align="center">carriage return (CR, 0x0D)</td>
+</tr>
+<tr>
+<td>\</td>
+<td align="center">backslash (0x5C)</td>
+</tr>
+<tr>
+<td>\nnn</td>
+<td align="center">octal char</td>
+</tr>
+<tr>
+<td>\xHH</td>
+<td align="center">hexadecimal char</td>
+</tr>
+<tr>
+<td>\uHHHH</td>
+<td align="center">wide hexadecimal char</td>
+</tr>
+<tr>
+<td>\cx</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\c-x</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\mx</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+<tr>
+<td>\m-x</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+</tbody></table>
+<p>For example, either <code>\003</code> or <code>\x03</code> or <code>\u0003</code> or <code>\cc</code> or <code>\c-c</code> can be used to send the key <code>Ctrl+C</code>(same as the ASCII character <code>EXT, 0x03</code>).</p>
 <h1 id="Send-Text"><a href="#Send-Text" class="headerlink" title="Send Text"></a>Send Text</h1><p><img src="/img/sender_send_text.gif" alt="..."></p>
 ]]></content>
       <categories>
@@ -1610,6 +1758,80 @@
     <title>WindTerm - Sender Pane / Send Chars</title>
     <url>/2020/06/20/sender-send-char/</url>
     <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sender pane supports sending text char by char at specified intervals. The minimum interval is 20ms.</p>
+<p>The following escape characters can be used in the sent text:</p>
+<table>
+<thead>
+<tr>
+<th>Char</th>
+<th align="center">Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\0</td>
+<td align="center">null (NUL, 0x00)</td>
+</tr>
+<tr>
+<td>\a</td>
+<td align="center">bell (BEL, 0x07)</td>
+</tr>
+<tr>
+<td>\b</td>
+<td align="center">backspace (BS, 0x08)</td>
+</tr>
+<tr>
+<td>\t</td>
+<td align="center">horizontal tab (HT, 0x09)</td>
+</tr>
+<tr>
+<td>\n</td>
+<td align="center">line feed (LF, 0x0A)</td>
+</tr>
+<tr>
+<td>\v</td>
+<td align="center">vertical tab (VT, 0x0B)</td>
+</tr>
+<tr>
+<td>\f</td>
+<td align="center">form feed (FF, 0x0C)</td>
+</tr>
+<tr>
+<td>\r</td>
+<td align="center">carriage return (CR, 0x0D)</td>
+</tr>
+<tr>
+<td>\</td>
+<td align="center">backslash (0x5C)</td>
+</tr>
+<tr>
+<td>\nnn</td>
+<td align="center">octal char</td>
+</tr>
+<tr>
+<td>\xHH</td>
+<td align="center">hexadecimal char</td>
+</tr>
+<tr>
+<td>\uHHHH</td>
+<td align="center">wide hexadecimal char</td>
+</tr>
+<tr>
+<td>\cx</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\c-x</td>
+<td align="center">control char, like <code>Ctrl+C</code></td>
+</tr>
+<tr>
+<td>\mx</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+<tr>
+<td>\m-x</td>
+<td align="center">meta char (x | 0x80), like <code>Meta+X</code></td>
+</tr>
+</tbody></table>
+<p>For example, either <code>\003</code> or <code>\x03</code> or <code>\u0003</code> or <code>\cc</code> or <code>\c-c</code> can be used to send the key <code>Ctrl+C</code>(same as the ASCII character <code>EXT, 0x03</code>).</p>
 <h1 id="Send-Chars"><a href="#Send-Chars" class="headerlink" title="Send Chars"></a>Send Chars</h1><p><img src="/img/sender_send_char.gif" alt="..."></p>
 ]]></content>
       <categories>
@@ -2264,6 +2486,65 @@
         <tag>translucent</tag>
         <tag>opaque</tag>
         <tag>opacity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Enhanced Protection / Lock Screen</title>
+    <url>/2021/04/23/lock-screen/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm attaches great importance to your SSH security and privacy，When temporarily leaving or not using WindTerm, you can lock the screen at any time.</p>
+<p>After the screen is locked, WindTerm can only be unlocked when the correct master password is entered, otherwise the content of any opened sessions will no longer be readable and writable.</p>
+<p>In addition, when WindTerm is idle for a period of time, it will automatically lock the screen. The default lock time is 30 minutes. </p>
+<p>Default shortcut key: <code>Ctrl+Alt+L</code>.</p>
+<h1 id="Lock-Screen"><a href="#Lock-Screen" class="headerlink" title="Lock Screen"></a>Lock Screen</h1><p><img src="/img/lock_screen.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>protection</tag>
+        <tag>lock</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Enhanced Protection / Change Master Password</title>
+    <url>/2021/04/23/change-master-password/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm attaches great importance to your SSH security and privacy, and through the enhanced protection of master password, the security of SSH is further improved.</p>
+<p>The master password is also very easy to change when needed. Just click the <code>Lock Screen</code> button in the status bar or use the shortcut <code>Ctrl+Alt+L</code> to open the lock screen interface, then select the <code>Change Master Password</code> button to change the master password. </p>
+<h1 id="Change-Master-Password"><a href="#Change-Master-Password" class="headerlink" title="Change Master Password"></a>Change Master Password</h1><p><img src="/img/change_master_password.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>protection</tag>
+        <tag>master</tag>
+        <tag>password</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - Modem / ZModem</title>
+    <url>/2021/04/23/modem-zmodem/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports the ZModem protocol well. You can send or receive one or more files not larger than 4 gigabytes by executing rz/sz commands, right click menu, or drag and drop files. WindTerm also has several other nice ZModem features:</p>
+<ul>
+<li>Supports automatic opening of the receiving directory after received. </li>
+<li>Supports sending operations such as <code>overwriting</code>, <code>ignoring</code>, <code>appending</code>, and <code>renaming</code> when a remote file with the same name exists.</li>
+<li>Supports using the <code>Cancel</code> button, or <code>&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;</code>, or <code>&lt;ctrl+c&gt;</code> key to terminate the transmission at any time.</li>
+<li>Detailed transfer progress and error messages.</li>
+<li>Fast and stable transmission speed.</li>
+</ul>
+<p><strong><em>Tips: When encountering any unexpected problems, <code>&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;&lt;ctrl+x&gt;</code> can always ensure to exit the transmission and return to normal.</em></strong></p>
+<h1 id="ZModem"><a href="#ZModem" class="headerlink" title="ZModem"></a>ZModem</h1><p>Send files:<br><img src="/img/zmodem_send.gif" alt="..."></p>
+<p>Receive files:<br><img src="/img/zmodem_receive.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>modem</tag>
+        <tag>zmodem</tag>
       </tags>
   </entry>
 </search>
