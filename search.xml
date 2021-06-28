@@ -1208,7 +1208,7 @@
   <entry>
     <title>WindTerm - Modem / YModem</title>
     <url>/2021/05/27/modem-ymodem/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports the <code>YModem</code> and <code>YModem-1K</code> protocol well. You can upload or download one or more files not larger than 4 gigabytes by executing <code>rb</code>, <code>sb</code> or <code>rz/sz --ymodem</code> commands, right click menu. WindTerm also has several other nice YModem features:</p>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports the <code>YModem</code> and <code>YModem-1K</code> protocol well. You can upload or download one or more files not larger than 4 gigabytes by executing <code>rb</code>, <code>sb</code> or <code>rz/sz --ymodem</code> commands, right click menu, or drag and drop files. WindTerm also has several other nice YModem features:</p>
 <ul>
 <li>Supports automatic opening of the download directory after received. </li>
 <li>Supports download operations such as <code>overwrite</code>, <code>overwrite when source file newer</code>, <code>overwrite when source file newer and longer</code>, <code>rename</code> and <code>skip</code> when a local file with the same name exists.</li>
@@ -1235,7 +1235,7 @@
   <entry>
     <title>WindTerm - Modem / XModem</title>
     <url>/2021/05/27/modem-xmodem/</url>
-    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports the <code>XModem</code> and <code>XModem-1K</code> protocol well. You can upload or download one file not larger than 4 gigabytes by executing <code>rx</code>, <code>sx</code> or <code>rz/sz -X</code> commands, right click menu. WindTerm also has several other nice XModem features:</p>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports the <code>XModem</code> and <code>XModem-1K</code> protocol well. You can upload or download one file not larger than 4 gigabytes by executing <code>rx</code>, <code>sx</code> or <code>rz/sz -X</code> commands, right click menu, or drag and drop files. WindTerm also has several other nice XModem features:</p>
 <ul>
 <li>Supports automatic opening of the download directory after received. </li>
 <li>Supports customizing padding char when uploading files.</li>
@@ -2635,6 +2635,136 @@
       <tags>
         <tag>windterm</tag>
         <tag>X11 forwarding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Focus Mode</title>
+    <url>/2021/06/28/ui_focus_mode/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Focus mode lets you focus on your session output by hiding the specified UI widgets, like the menu bar, panes and so on. You can also specify whether you need full screen display and keep the window always on top.</p>
+<p>Focus mode can be toggled using <code>Focus Mode</code> button in the upper right corner of the menu bar, <code>Mode - Focus Mode</code> menu, <code>command palette</code> or by the shortcut <code>Ctrl+Enter</code>. <code>Ctrl+Enter</code> again exits Focus Mode.</p>
+<h1 id="Focus-Mode"><a href="#Focus-Mode" class="headerlink" title="Focus Mode"></a>Focus Mode</h1><p><img src="/img/ui_focus_mode.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>pane</tag>
+        <tag>ui</tag>
+        <tag>focus mode</tag>
+        <tag>full screen</tag>
+        <tag>always on top</tag>
+        <tag>menu bar</tag>
+        <tag>status bar</tag>
+        <tag>quick bar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Dock And Pane</title>
+    <url>/2021/06/28/ui_dock_and_pane/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The dock is used to display and manage the panes. A dock can display multiple panes at the same time. But usually a pane can only be displayed in one dock at a time. The dock menu supports the below actions:</p>
+<ul>
+<li>Split dock</li>
+<li>Float dock</li>
+<li>Show or hide the specified panes</li>
+</ul>
+<h1 id="Dock-And-Pane"><a href="#Dock-And-Pane" class="headerlink" title="Dock And Pane"></a>Dock And Pane</h1><p><img src="/img/ui_dock_and_pane.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>pane</tag>
+        <tag>ui</tag>
+        <tag>dock</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Layout</title>
+    <url>/2021/06/28/ui_layout/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>There is a layout button in the upper right corner of the menu bar. You can quickly show or hide the menu bar, status bar, dock areas, panes and so on through the menu of the layout button.</p>
+<h1 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h1><p><img src="/img/ui_layout.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>pane</tag>
+        <tag>ui</tag>
+        <tag>menu bar</tag>
+        <tag>status bar</tag>
+        <tag>dock</tag>
+        <tag>layout</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Tab</title>
+    <url>/2021/06/28/ui_tab/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sessions are usually opened in tab groups as tabs. A session tab supports the below actions:</p>
+<ul>
+<li>Duplicate tab</li>
+<li>Split tab horizontally/vertically</li>
+<li>Split tab to the left/right/top/bottom tab group</li>
+<li>Move tab to the specified tab group</li>
+</ul>
+<h1 id="Tab"><a href="#Tab" class="headerlink" title="Tab"></a>Tab</h1><p><img src="/img/ui_tab.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>split</tag>
+        <tag>tab</tag>
+        <tag>ui</tag>
+        <tag>duplicate</tag>
+        <tag>move</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Text Margins</title>
+    <url>/2021/06/28/ui_text_margins/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The text area usually displays multiple margins, such as number margin, fold margin, timestamp margin, etc. For ease of use, the margin menu supports the below actions:</p>
+<ul>
+<li>Show or hide the specified margin</li>
+<li>Show or hide symbols</li>
+<li>Show or hide white spaces</li>
+<li>Fold and unfold text</li>
+<li>Zoom in/out</li>
+</ul>
+<h1 id="Text-Margins"><a href="#Text-Margins" class="headerlink" title="Text Margins"></a>Text Margins</h1><p><img src="/img/ui_text_margins.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>ui</tag>
+        <tag>text margins</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindTerm - UI / Tab Group</title>
+    <url>/2021/06/28/ui_tab_group/</url>
+    <content><![CDATA[<h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>The tab group is used to manage several tabs. In order to facilitate management, each tab group is named, such as <code>A</code>, <code>B</code>, <code>C</code>, etc. A session tab group supports the below actions:</p>
+<ul>
+<li>Split tab group horizontally/vertically</li>
+<li>Merge tab group with the specified tab group</li>
+<li>Close tab group</li>
+</ul>
+<h1 id="Tab-Group"><a href="#Tab-Group" class="headerlink" title="Tab Group"></a>Tab Group</h1><p><img src="/img/ui_tab_group.gif" alt="..."></p>
+]]></content>
+      <categories>
+        <category>WindTerm</category>
+      </categories>
+      <tags>
+        <tag>windterm</tag>
+        <tag>split</tag>
+        <tag>ui</tag>
+        <tag>tab group</tag>
+        <tag>merge</tag>
       </tags>
   </entry>
 </search>

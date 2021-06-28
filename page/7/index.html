@@ -209,7 +209,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/28/outline_execute/">
+    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/07/21/debug_mode/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -223,7 +223,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/28/outline_execute/" class="post-title-link" itemprop="url">WindTerm - Outline / Execution</a>
+            <a href="/2020/07/21/debug_mode/" class="post-title-link" itemprop="url">WindTerm - Debug Mode</a>
         </h1>
 
         <div class="post-meta">
@@ -233,14 +233,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-06-28 10:19:26" itemprop="dateCreated datePublished" datetime="2020-06-28T10:19:26+08:00">2020-06-28</time>
+              <time title="Created: 2020-07-21 03:38:08" itemprop="dateCreated datePublished" datetime="2020-07-21T03:38:08+08:00">2020-07-21</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-07-23 21:10:22" itemprop="dateModified" datetime="2020-07-23T21:10:22+08:00">2020-07-23</time>
+                <time title="Modified: 2020-07-23 21:50:20" itemprop="dateModified" datetime="2020-07-23T21:50:20+08:00">2020-07-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -265,8 +265,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Outline supports re-execution or repeated execution of the selected single or multiple commands. Quickly executing the commands via double-clicking or context menu.</p>
-<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_execute.gif" alt="..."></p>
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Debug mode is a troubleshooting tool that allows WindTerm to create additional and more detailed logs of the session’s activity.</p>
+<p>You may enable debug mode and send the logs if you have particular issues of the terminal output or slow keyboard response and so on.</p>
+<p>Leaving debug mode on is not recommended once your issue has been resolved because it will slow down the WindTerm’s normal operation.</p>
+<h1 id="Debug-Mode"><a href="#Debug-Mode" class="headerlink" title="Debug Mode"></a>Debug Mode</h1><p><img src="/img/debug_mode.gif" alt="..."></p>
 
       
     </div>
@@ -286,7 +288,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/21/transfer-download-upload-benchmark/">
+    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/07/21/x11_forwarding/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -300,7 +302,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/21/transfer-download-upload-benchmark/" class="post-title-link" itemprop="url">WindTerm - Transfer / Sftp / Benchmark</a>
+            <a href="/2020/07/21/x11_forwarding/" class="post-title-link" itemprop="url">WindTerm - X11 Forwarding</a>
         </h1>
 
         <div class="post-meta">
@@ -309,16 +311,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2020-06-21 08:00:00" itemprop="dateCreated datePublished" datetime="2020-06-21T08:00:00+08:00">2020-06-21</time>
+              <time title="Created: 2020-07-21 01:56:26 / Modified: 05:02:56" itemprop="dateCreated datePublished" datetime="2020-07-21T01:56:26+08:00">2020-07-21</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-07-23 21:12:10" itemprop="dateModified" datetime="2020-07-23T21:12:10+08:00">2020-07-23</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -342,8 +338,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer has high speed for upload and download, especially for huge files and large number of small files.</p>
-<h1 id="Benchmark"><a href="#Benchmark" class="headerlink" title="Benchmark"></a>Benchmark</h1><p><img src="/img/transfer_download_upload_benchmark.gif" alt="..."></p>
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports X11 forwarding, which allows a user to start up remote applications but forward the application display to the local machine.</p>
+<ul>
+<li><p>Internal X display<br>WindTerm uses XMing as an embedded X server. WindTerm can start XMing automatically when X11 forwarding requests with no extra configuration.</p>
+</li>
+<li><p>External X display<br>WindTerm supports external X server too, just uses “IP:DisplayNum.ScreenNum” to point to the location of your local X server.</p>
+</li>
+</ul>
+<h1 id="X11-Forwarding"><a href="#X11-Forwarding" class="headerlink" title="X11 Forwarding"></a>X11 Forwarding</h1><p><img src="/img/x11_forwarding.gif" alt="..."></p>
 
       
     </div>
@@ -363,7 +365,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/21/transfer-open-with-default-editor/">
+    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/07/21/port_forwarding/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -377,7 +379,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/21/transfer-open-with-default-editor/" class="post-title-link" itemprop="url">WindTerm - Transfer / Sftp / Open With Default Editor</a>
+            <a href="/2020/07/21/port_forwarding/" class="post-title-link" itemprop="url">WindTerm - Port Forwarding (Tunnel)</a>
         </h1>
 
         <div class="post-meta">
@@ -387,14 +389,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-06-21 07:38:18" itemprop="dateCreated datePublished" datetime="2020-06-21T07:38:18+08:00">2020-06-21</time>
+              <time title="Created: 2020-07-21 01:32:26" itemprop="dateCreated datePublished" datetime="2020-07-21T01:32:26+08:00">2020-07-21</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-07-23 21:23:39" itemprop="dateModified" datetime="2020-07-23T21:23:39+08:00">2020-07-23</time>
+                <time title="Modified: 2020-10-17 10:10:57" itemprop="dateModified" datetime="2020-10-17T10:10:57+08:00">2020-10-17</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -419,8 +421,20 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports opening a file with the specified default editor, and you may choose whether to upload the file automatically after edition.</p>
-<h1 id="Open-With-Default-Editor"><a href="#Open-With-Default-Editor" class="headerlink" title="Open With Default Editor"></a>Open With Default Editor</h1><p><img src="/img/transfer_open_with_default_editor.gif" alt="..."></p>
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports three types of SSH port forwarding:</p>
+<ul>
+<li><p>Direct/Local port forwarding<br>Connections from an SSH client are forwarded, via the SSH server, to a destination server.</p>
+</li>
+<li><p>Reverse/Remote port forwarding<br>Connections from an SSH server are forwarded, via the SSH client, to a destination server</p>
+</li>
+<li><p>Dynamic port forwarding<br>Connections from various programs are forwarded, via the SSH client to an SSH server, and finally to several destination servers.</p>
+</li>
+</ul>
+<h1 id="Port-Forwarding"><a href="#Port-Forwarding" class="headerlink" title="Port Forwarding"></a>Port Forwarding</h1><ul>
+<li>Direct/Local port forwarding <img src="/img/direct_forwarding.gif" alt="..."></li>
+<li>Reverse/Remote port forwarding <img src="/img/reverse_forwarding.gif" alt="..."></li>
+<li>Dynamic port forwarding <img src="/img/dynamic_forwarding.gif" alt="..."></li>
+</ul>
 
       
     </div>
@@ -440,7 +454,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/21/transfer-create-folder-file-link/">
+    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/28/pair/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -454,7 +468,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/21/transfer-create-folder-file-link/" class="post-title-link" itemprop="url">WindTerm - Transfer / Sftp / Create Folder/File/Link</a>
+            <a href="/2020/06/28/pair/" class="post-title-link" itemprop="url">WindTerm - Pair</a>
         </h1>
 
         <div class="post-meta">
@@ -464,14 +478,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-06-21 07:32:18" itemprop="dateCreated datePublished" datetime="2020-06-21T07:32:18+08:00">2020-06-21</time>
+              <time title="Created: 2020-06-28 10:52:47" itemprop="dateCreated datePublished" datetime="2020-06-28T10:52:47+08:00">2020-06-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-07-23 21:21:59" itemprop="dateModified" datetime="2020-07-23T21:21:59+08:00">2020-07-23</time>
+                <time title="Modified: 2020-07-23 21:08:06" itemprop="dateModified" datetime="2020-07-23T21:08:06+08:00">2020-07-23</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -496,8 +510,56 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports creating a new folder/file/link in current folder, and you may set whether to automatically open it after creation.</p>
-<h1 id="Create-Folder-File-Link"><a href="#Create-Folder-File-Link" class="headerlink" title="Create Folder/File/Link"></a>Create Folder/File/Link</h1><p><img src="/img/transfer_create_folder_file_link.gif" alt="..."></p>
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>WindTerm supports highlighting the opening and closing delimiter ((), [], {} and any customed delimiters) when setting caret in pair. Quick selecting the matching pairs via double-clicking or shortcuts is available.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut [Local Mode]</th>
+<th align="center">Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ctrl+Shift+[</td>
+<td align="center">Select the matching pairs<br>Repeating the key will expands the selection to the outer matching pairs</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+]</td>
+<td align="center">Same as above</td>
+</tr>
+<tr>
+<td>Alt+Shift+[</td>
+<td align="center">Select to the opening delimiter</td>
+</tr>
+<tr>
+<td>Alt+Shift+]</td>
+<td align="center">Select to the closing delimiter</td>
+</tr>
+<tr>
+<td>Alt+Shift+P, Alt+Shift+[</td>
+<td align="center">Select to the previous delimiter</td>
+</tr>
+<tr>
+<td>Alt+Shift+N, Alt+Shift+]</td>
+<td align="center">Select to the next delimiter</td>
+</tr>
+<tr>
+<td>Alt+[</td>
+<td align="center">Move to the opening delimiter</td>
+</tr>
+<tr>
+<td>Alt+]</td>
+<td align="center">Move to the closing delimiter</td>
+</tr>
+<tr>
+<td>Alt+P, Alt+[</td>
+<td align="center">Move to the previous delimiter</td>
+</tr>
+<tr>
+<td>Alt+N, Alt+]</td>
+<td align="center">Move to the next delimiter</td>
+</tr>
+</tbody></table>
+<h1 id="Pair"><a href="#Pair" class="headerlink" title="Pair"></a>Pair</h1><p><img src="/img/pair.gif" alt="..."></p>
 
       
     </div>
@@ -517,7 +579,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/21/transfer-filter-items/">
+    <link itemprop="mainEntityOfPage" href="https://kingtoolbox.github.io/2020/06/28/outline_preview/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -531,7 +593,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/21/transfer-filter-items/" class="post-title-link" itemprop="url">WindTerm - Transfer / Sftp / Filter Items</a>
+            <a href="/2020/06/28/outline_preview/" class="post-title-link" itemprop="url">WindTerm - Outline / Preview</a>
         </h1>
 
         <div class="post-meta">
@@ -541,14 +603,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-06-21 07:30:26" itemprop="dateCreated datePublished" datetime="2020-06-21T07:30:26+08:00">2020-06-21</time>
+              <time title="Created: 2020-06-28 10:48:26" itemprop="dateCreated datePublished" datetime="2020-06-28T10:48:26+08:00">2020-06-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-07-23 21:25:03" itemprop="dateModified" datetime="2020-07-23T21:25:03+08:00">2020-07-23</time>
+                <time title="Modified: 2020-08-22 06:25:23" itemprop="dateModified" datetime="2020-08-22T06:25:23+08:00">2020-08-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -573,8 +635,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>Sftp transfer supports filtering items in the current folder, and freely input and filter at any time.</p>
-<h1 id="Filter-Items"><a href="#Filter-Items" class="headerlink" title="Filter Items"></a>Filter Items</h1><p><img src="/img/transfer_filter_items.gif" alt="..."></p>
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><p>When the mouse hovers over the command node, the preview pane will be displayed for convenient reading the command output.</p>
+<h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><p><img src="/img/outline_preview.gif" alt="..."></p>
 
       
     </div>
@@ -594,7 +656,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/18/">18</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/20/">20</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
 
@@ -660,7 +722,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">90</span>
+          <span class="site-state-item-count">96</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -673,7 +735,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">70</span>
+        <span class="site-state-item-count">84</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
